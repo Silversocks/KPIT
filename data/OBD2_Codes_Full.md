@@ -1,2230 +1,2230 @@
-# OBD II Fault Codes
+#OBDIIFaultCodes
 
-OBD I I Fa ult Codes Da ta ba se
+OBDIIFaultCodesDatabase
 Code
-D escr i pti on
-P 000 1
-Fue l V olum e R e g ula t or C on t r ol C ir cuit / O p e n
-P 000 2
-Fue l V olum e R e g ula t or C on t r ol C ir cuit R a ng e / P e r f orm a nce
-P 000 3
-Fue l V olu
-m e R e g ula t or C on t r ol C ir cuit Low
-P 000 4
-Fue l V olum e R e g ula t or C on t r ol C ir cuit High
-P 000 5
-Fue l S hut o ff V a l ve C ont r ol C ir cuit / O p e n
-P 000 6
-Fue l S hut o ff V a l ve C ont r ol C ir cuit L ow
-P 000 7
-Fue l S hut o ff V a l ve C ont r ol C ir cuit H ig h
-P 000 8
-E ng ine P osit
-io n S yst e m P e r form a nce ( B a nk 1)
-P 000 9
-E ng ine P osit io n S yst e m P e r form a nce ( B a nk 2)
-P 001 0
-A C a m sha ft P osit io n A ct ua t or C ir cuit ( B a nk 1)
-P 001 1
-A C a m sha ft P osit io n
+Description
+P0001
+FuelVolumeRegulatorControlCircuit/Open
+P0002
+FuelVolumeRegulatorControlCircuitRange/Performance
+P0003
+FuelVolu
+meRegulatorControlCircuitLow
+P0004
+FuelVolumeRegulatorControlCircuitHigh
+P0005
+FuelShutoffValveControlCircuit/Open
+P0006
+FuelShutoffValveControlCircuitLow
+P0007
+FuelShutoffValveControlCircuitHigh
+P0008
+EnginePosit
+ionSystemPerformance(Bank1)
+P0009
+EnginePositionSystemPerformance(Bank2)
+P0010
+ACamshaftPositionActuatorCircuit(Bank1)
+P0011
+ACamshaftPosition
 -
-Tim in g O ve r
+TimingOver
 -
-A d va nce d or Syst e m
-P e r form a nce ( B a n k 1)
-P 001 2
-A C a m sha ft P osit io n
+AdvancedorSystem
+Performance(Bank1)
+P0012
+ACamshaftPosition
 -
-Tim in
-g O ve r
+Timin
+gOver
 -
-R e t a r d e d ( B a nk 1)
-P 001 3
-B C a m sha ft P osit io n
+Retarded(Bank1)
+P0013
+BCamshaftPosition
 -
-A ct ua t or C ir cuit ( B a n k1)
-P 001 4
-B C a m sha ft P osit io n
+ActuatorCircuit(Bank1)
+P0014
+BCamshaftPosition
 -
-Tim in g O ve r
+TimingOver
 -
-A d va nce d or Syst e m
-P e r form a nce ( B a n k 1)
-P 001 5
-B C a m sha ft P osit io n
+AdvancedorSystem
+Performance(Bank1)
+P0015
+BCamshaftPosition
 -
-Tim in g O ve r
+TimingOver
 -
-R e t a r d e d ( B a nk 1)
-P 001 6
-C r a nksha ft P osit io n
-C a m sha ft P osit io n C orr e la t ion ( B a n k 1
-Se nsor A )
-P 001 7
-C r a nksha ft P osit io n C a m sha ft P osit io n C orr e la t ion ( B a n k 1
-Se nsor B )
-P 001 8
-C r a nksha ft P osit io n C a m sha ft P osit io n C orr e la t ion ( B a n k 2
-Se nsor A )
-P 001 9
-C r a nksha ft P osit io n C a m sha ft P osit io n C orr e la
-t ion ( B a n k 2
-Se nsor B )
-P 002 0
-A C a m sha ft P osit io n A ct ua t or C ir cuit ( B a nk 2)
-P 002 1
-A C a m sha ft P osit io n
+Retarded(Bank1)
+P0016
+CrankshaftPosition
+CamshaftPositionCorrelation(Bank1
+SensorA)
+P0017
+CrankshaftPositionCamshaftPositionCorrelation(Bank1
+SensorB)
+P0018
+CrankshaftPositionCamshaftPositionCorrelation(Bank2
+SensorA)
+P0019
+CrankshaftPositionCamshaftPositionCorrela
+tion(Bank2
+SensorB)
+P0020
+ACamshaftPositionActuatorCircuit(Bank2)
+P0021
+ACamshaftPosition
 -
-Tim in g O ve r
+TimingOver
 -
-A d va nce d or Syst e m
-P e r form a nce ( B a n k 2)
-P 002 2
-A C a m sha ft P osit io n
+AdvancedorSystem
+Performance(Bank2)
+P0022
+ACamshaftPosition
 -
-Tim in g O ve r
+TimingOver
 -
-R e t a r d e d ( B a nk 2)
-P 002 3
-B C a m sha ft P osit io n
+Retarded(Bank2)
+P0023
+BCamshaftPosition
 -
-A c
-t ua t or C ir cuit ( B a n k 2)
-P 002 4
-B C a m sha ft P osit io n
+Ac
+tuatorCircuit(Bank2)
+P0024
+BCamshaftPosition
 -
-Tim in g O ve r
+TimingOver
 -
-A d va nce d or Syst e m
-P e r form a nce ( B a n k 2)
-P 002 5
-B C a m sha ft P osit io n
+AdvancedorSystem
+Performance(Bank2)
+P0025
+BCamshaftPosition
 -
-Tim in g O ve r
+TimingOver
 -
-R e t a r d e d ( B a nk 2)
-P 002 6
-Int a ke V a lve C ont r o l Sole no id C ir cuit R a ng e / P e r f orm a n ce
-( B a nk 1)
-P 002 7
-E xha
-ust V a lve C o nt r ol So le noid C ir c uit R a ng e / P e r form a nce
-( B a nk 1)
-P 002 8
-Int a ke V a lve C ont r o l Sole no id C ir cuit R a ng e / P e r f orm a n ce
-( B a nk 2)
-P 002 9
-E xha ust V a lve C o nt r ol So le noid C ir c uit R a ng e / P e r form a nce
-( B a nk 2)
-P 003 0
-HO 2S He a t e r C o nt r ol C ir cui t ( B a nk 1
-Se nsor 1)
-P 003 1
-HO 2S He a t e r C o nt r ol C ir cui t Low ( B a nk 1 Se nsor 1)
-P 003 2
-HO 2S He a t e r C o nt r ol C ir cui t High ( B a n k 1 Se nsor 1)
-P 003 3
-Tur b o C ha r g e r B y p a ss V a lv e C ont r ol C ir cuit
-P 003 4
-Tur b o C ha r g e r B y p a ss V a lv e C ont r ol C ir cuit L ow
-P 003 5
-Tur b o C ha r
-g e r B y p a ss V a lv e C ont r ol C ir cuit Hig h
-P 003 6
-HO 2S He a t e r C o nt r ol C ir cu it ( B a nk 1 Se ns or 2)
-P 003 7
-HO 2S He a t e r C o nt r ol C ir cui t Low ( B a nk 1 Se nsor 2)
-P 003 8
-HO 2S He a t e r C o nt r ol C ir cui t High ( B a n k 1 Se nsor 2)
-P 003 9
-Tur b o/ Sup e r C ha r g e r B yp a s s V a lve C
-ont r ol C ir cuit
-R a ng e / P e r form a nce
-P 004 0
-O 2 Se ns or Sig na ls Sw a p p e d B a nk 1 Se ns or 1/ B a nk 2 Se nsor 1
-P 004 1
-O 2 Se ns or Sig na ls Sw a p p e d B a nk 1 Se ns or 2/ B a nk 2 Se nsor 2
-P 004 2
-HO 2S He a t e r C o nt r ol C ir cui t ( B a nk 1 Se nsor 3)
-P 004 3
-HO 2S He a t e r C o nt r ol C ir
-cui t Low ( B a nk 1 Se nsor 3)
-P 004 4
-HO 2S He a t e r C o nt r ol C ir cui t High ( B a n k 1 Se nsor 3)
-P 004 5
-Tur b o/ Sup e r C ha r g e r B oost C ont r ol S ole noid C ir c uit / O p e n
-P 004 6
-Tur b o/ Sup e r C ha r g e r B oost C ont r ol S ole noid C ir c uit
-R a ng e / P e r form a nce
-P 004 7
-Tur b o/ Sup e r C ha r g
-e r B oost C ont r ol S ole noid C ir c uit Lo w
-P 004 8
-Tur b o/ Sup e r C ha r g e r B oost C ont r ol S ole noid C ir c uit Hi g h
-P 004 9
-Tur b o/ Sup e r C ha r g e r T ur b i ne O ve r spe e d
-P 005 0
-HO 2S He a t e r C o nt r ol C ir cui t ( B a nk 2 Se nsor 1)
-P 005 1
-HO 2S He a t e r C o nt r ol C ir cui t Low ( B a nk 2 Se
-nsor 1)
-P 005 2
-HO 2S He a t e r C o nt r ol C ir cui t High ( B a n k 2 Se nsor 1)
-P 005 3
-HO 2S He a t e r R e sist a nce ( B a nk 1 Se ns or 1)
-P 005 4
-HO 2S He a t e r R e sist a nce ( B a nk 1 Se ns or 2)
-P 005 5
-HO 2S He a t e r R e sist a nce ( B a nk 1 Se ns or 3)
-P 005 6
-HO 2S He a t e r C o nt r ol C ir cui t (
-B a nk 2 Se nsor 2)
-P 005 7
-HO 2S He a t e r C o nt r ol C ir cui t Low ( B a nk 2 Se nsor 2)
-P 005 8
-HO 2S He a t e r C o nt r ol C ir cui t High ( B a n k 2 Se nsor 2)
-P 005 9
-HO 2S He a t e r R e sist a nce ( B a nk 2 Se ns or 1)
-P 006 0
-HO 2S He a t e r R e sist a nce ( B a nk 2 Se ns or 2)
-P 006 1
-HO 2S He a t e r
-R e sist a nce ( B a nk 2 Se ns or 3)
-P 006 2
-HO 2S He a t e r C o nt r ol C ir cu it ( B a nk 2 Se ns or 3)
-P 006 3
-HO 2S He a t e r C o nt r ol C ir cui t Low ( B a nk 2 Se nsor 3)
-P 006 4
-HO 2S He a t e r C o nt r ol C ir cui t High ( B a n k 2 Se nsor 3)
-P 006 5
-A ir A ssist e d In je ct or C o nt r o l R a ng e / P e r for
-m a nce
-P 006 6
-A ir A ssist e d In je ct or C o nt r o l C ir cuit or C ir cu it Low
-P 006 7
-A ir A ssist e d In je ct or C o nt r o l C ir cuit Hig h
-P 006 8
-MA P / MA F T hr ot t le P osit io n C orr e la t ion
-P 006 9
-Ma nifold A b solut e P r e ss ur e B a r om e t r ic P r e ssur e C orr e l a t ion
-P 007 0
-A m b ie nt A ir
-Te m p e r a t ur e S e nsor C ir c uit
-P 007 1
-A m b ie nt A ir Te m p e r a t ur e S e nsor R a ng e / P e r form a n ce
-P 007 2
-A m b ie nt A ir Te m p e r a t ur e S e nsor C ir c uit L ow
-P 007 3
-A m b ie nt A ir Te m p e r a t ur e S e nsor C ir c uit Hig h
-P 007 4
-A m b ie nt A ir Te m p e r a t ur e S e nsor C ir c uit Int e r m it t e nt
+Retarded(Bank2)
+P0026
+IntakeValveControlSolenoidCircuitRange/Performance
+(Bank1)
+P0027
+Exha
+ustValveControlSolenoidCircuitRange/Performance
+(Bank1)
+P0028
+IntakeValveControlSolenoidCircuitRange/Performance
+(Bank2)
+P0029
+ExhaustValveControlSolenoidCircuitRange/Performance
+(Bank2)
+P0030
+HO2SHeaterControlCircuit(Bank1
+Sensor1)
+P0031
+HO2SHeaterControlCircuitLow(Bank1Sensor1)
+P0032
+HO2SHeaterControlCircuitHigh(Bank1Sensor1)
+P0033
+TurboChargerBypassValveControlCircuit
+P0034
+TurboChargerBypassValveControlCircuitLow
+P0035
+TurboChar
+gerBypassValveControlCircuitHigh
+P0036
+HO2SHeaterControlCircuit(Bank1Sensor2)
+P0037
+HO2SHeaterControlCircuitLow(Bank1Sensor2)
+P0038
+HO2SHeaterControlCircuitHigh(Bank1Sensor2)
+P0039
+Turbo/SuperChargerBypassValveC
+ontrolCircuit
+Range/Performance
+P0040
+O2SensorSignalsSwappedBank1Sensor1/Bank2Sensor1
+P0041
+O2SensorSignalsSwappedBank1Sensor2/Bank2Sensor2
+P0042
+HO2SHeaterControlCircuit(Bank1Sensor3)
+P0043
+HO2SHeaterControlCir
+cuitLow(Bank1Sensor3)
+P0044
+HO2SHeaterControlCircuitHigh(Bank1Sensor3)
+P0045
+Turbo/SuperChargerBoostControlSolenoidCircuit/Open
+P0046
+Turbo/SuperChargerBoostControlSolenoidCircuit
+Range/Performance
+P0047
+Turbo/SuperCharg
+erBoostControlSolenoidCircuitLow
+P0048
+Turbo/SuperChargerBoostControlSolenoidCircuitHigh
+P0049
+Turbo/SuperChargerTurbineOverspeed
+P0050
+HO2SHeaterControlCircuit(Bank2Sensor1)
+P0051
+HO2SHeaterControlCircuitLow(Bank2Se
+nsor1)
+P0052
+HO2SHeaterControlCircuitHigh(Bank2Sensor1)
+P0053
+HO2SHeaterResistance(Bank1Sensor1)
+P0054
+HO2SHeaterResistance(Bank1Sensor2)
+P0055
+HO2SHeaterResistance(Bank1Sensor3)
+P0056
+HO2SHeaterControlCircuit(
+Bank2Sensor2)
+P0057
+HO2SHeaterControlCircuitLow(Bank2Sensor2)
+P0058
+HO2SHeaterControlCircuitHigh(Bank2Sensor2)
+P0059
+HO2SHeaterResistance(Bank2Sensor1)
+P0060
+HO2SHeaterResistance(Bank2Sensor2)
+P0061
+HO2SHeater
+Resistance(Bank2Sensor3)
+P0062
+HO2SHeaterControlCircuit(Bank2Sensor3)
+P0063
+HO2SHeaterControlCircuitLow(Bank2Sensor3)
+P0064
+HO2SHeaterControlCircuitHigh(Bank2Sensor3)
+P0065
+AirAssistedInjectorControlRange/Perfor
+mance
+P0066
+AirAssistedInjectorControlCircuitorCircuitLow
+P0067
+AirAssistedInjectorControlCircuitHigh
+P0068
+MAP/MAFThrottlePositionCorrelation
+P0069
+ManifoldAbsolutePressureBarometricPressureCorrelation
+P0070
+AmbientAir
+TemperatureSensorCircuit
+P0071
+AmbientAirTemperatureSensorRange/Performance
+P0072
+AmbientAirTemperatureSensorCircuitLow
+P0073
+AmbientAirTemperatureSensorCircuitHigh
+P0074
+AmbientAirTemperatureSensorCircuitIntermittent
 P
-007 5
-Int a ke V a lve C ont r o l Sole no id C ir cuit ( B a n k 1)
-P 007 6
-Int a ke V a lve C ont r o l Sole no id C ir cuit Low ( B a n k 1)
-P 007 7
-Int a ke V a lve C ont r o l Sole no id C ir cuit Hi g h ( B a n k 1)
-P 007 8
-E xha ust V a lve C o nt r ol So le noid C ir c uit ( B a n k 1)
-P 007 9
-E xha ust V a lve C o n
-t r ol So le noid C ir c uit L ow ( B a nk 1)
-P 008 0
-E xha ust V a lve C o nt r ol S ole noid C ir cuit Hig h ( B a n k 1)
-P 008 1
-Int a ke V a lve C ont r o l Sole no id C ir cuit ( B a n k 2)
-P 008 2
-Int a ke V a lve C ont r o l Sole no id C ir cuit Low ( B a n k 2)
-P 008 3
-Int a ke V a lve C ont r o l Sole no id C i
-r cuit Hi g h ( B a n k 2)
-P 008 4
-E xha ust V a lve C o nt r ol So le noid C ir c uit ( B a n k 2)
-P 008 5
-E xha ust V a lve C o nt r ol So le noid C ir c uit L ow ( B a nk 2)
-P 008 6
-E xha ust V a lve C o nt r ol S ole noid C ir cuit Hig h ( B a n k 2)
-P 008 7
-Fue l R a il/ Syst e m P r e ss ur e
+0075
+IntakeValveControlSolenoidCircuit(Bank1)
+P0076
+IntakeValveControlSolenoidCircuitLow(Bank1)
+P0077
+IntakeValveControlSolenoidCircuitHigh(Bank1)
+P0078
+ExhaustValveControlSolenoidCircuit(Bank1)
+P0079
+ExhaustValveCon
+trolSolenoidCircuitLow(Bank1)
+P0080
+ExhaustValveControlSolenoidCircuitHigh(Bank1)
+P0081
+IntakeValveControlSolenoidCircuit(Bank2)
+P0082
+IntakeValveControlSolenoidCircuitLow(Bank2)
+P0083
+IntakeValveControlSolenoidCi
+rcuitHigh(Bank2)
+P0084
+ExhaustValveControlSolenoidCircuit(Bank2)
+P0085
+ExhaustValveControlSolenoidCircuitLow(Bank2)
+P0086
+ExhaustValveControlSolenoidCircuitHigh(Bank2)
+P0087
+FuelRail/SystemPressure
 -
-Too Low
-P 008 8
-Fue l R a il/ Syst e m P r e ss ur e
+TooLow
+P0088
+FuelRail/SystemPressure
 -
-Too High
-P 008 9
-Fue l P r e ss ur e R e g ula t or 1 P e r form a nce
-P 009 0
-Fue l P r e ss ur e R e g ula t or 1 C ont r ol C ir cuit
-P 009 1
-Fue l P r e ss ur e R e g ula t or 1 C ont r ol C ir cuit L ow
-P 009 2
-Fue l P r e ss ur e R e g ula t or 1 C ont r ol C ir cuit Hig h
-P 009
+TooHigh
+P0089
+FuelPressureRegulator1Performance
+P0090
+FuelPressureRegulator1ControlCircuit
+P0091
+FuelPressureRegulator1ControlCircuitLow
+P0092
+FuelPressureRegulator1ControlCircuitHigh
+P009
 3
-Fue l S yst e m Le a k De t e ct e d La r g e Le a k
-P 009 4
-Fue l S yst e m Le a k De t e ct e d Sm a ll Le a k
-P 009 5
-Int a ke A ir Te m p e r a t ur e Se n sor 2 C ir cuit
-P 009 6
-Int a ke A ir Te m p e r a t ur e Se n sor 2 C ir cuit R a ng e / P e r fo r m a nce
-P 009 7
-Int a ke A ir Te m p e r a t ur e Se n sor 2 C ir cuit Low
-P 009 8
-Int a ke A ir Te m p e r a t ur e Se n sor 2 C ir cuit Hig h
-P 009 9
-Int a ke A ir Te m p e r a t ur e Se n sor 2 C ir cuit I nt e r m it t e nt / E r r a t ic
-P 010 0
-Ma ss or V olum e A ir Flow C i r cuit Ma lf un ct ion
-P 010 1
-Ma ss or V olum e A ir Flow C i r cuit R a ng e / P e r form a nce P r oble m
-P 010 2
+FuelSystemLeakDetectedLargeLeak
+P0094
+FuelSystemLeakDetectedSmallLeak
+P0095
+IntakeAirTemperatureSensor2Circuit
+P0096
+IntakeAirTemperatureSensor2CircuitRange/Performance
+P0097
+IntakeAirTemperatureSensor2CircuitLow
+P0098
+IntakeAirTemperatureSensor2CircuitHigh
+P0099
+IntakeAirTemperatureSensor2CircuitIntermittent/Erratic
+P0100
+MassorVolumeAirFlowCircuitMalfunction
+P0101
+MassorVolumeAirFlowCircuitRange/PerformanceProblem
+P0102
 M
-a ss or V olum e A ir Flow C i r cuit L ow Inp ut
-P 010 3
-Ma ss or V olum e A ir Flow C i r cuit Hig h Inp ut
-P 010 4
-Ma ss or V olum e A ir Flow C i r cuit Int e r m it t e nt
-P 010 5
-Ma nifold A b solut e P r e ss ur e / B a r om e t r ic P r e ssur e C ir cui t
-Ma lfun ct io n
-P 010 6
-Ma nifold A b solut e P r e ss u
-r e / B a r om e t r ic P r e ssur e C ir cui t
-R a ng e / P e r form a nce P r oble m
-P 010 7
-Ma nifold A b solut e P r e ss ur e / B a r om e t r ic P r e ssur e C ir cui t Low
-Inp ut
-P 010 8
-Ma nifold A b solut e P r e ss ur e / B a r om e t r ic P r e ssur e C ir cui t High
-Inp ut
-P 010 9
-Ma nifold A b solut e P r e ss ur e / B a r om e t r ic P r e
-ssur e C ir cui t
-Int e r m it t e nt
-P 011 0
-Int a ke A ir Te m p e r a t ur e C ir cuit Ma lf un ct ion
-P 011 1
-Int a ke A ir Te m p e r a t ur e C ir cuit R a ng e / P e r form a n ce P r oble m
-P 011 2
-Int a ke A ir Te m p e r a t ur e C ir cuit L ow Inp ut
-P 011 3
-Int a ke A ir Te m p e r a t ur e C ir cuit Hig h Inp ut
-P 011 4
+assorVolumeAirFlowCircuitLowInput
+P0103
+MassorVolumeAirFlowCircuitHighInput
+P0104
+MassorVolumeAirFlowCircuitIntermittent
+P0105
+ManifoldAbsolutePressure/BarometricPressureCircuit
+Malfunction
+P0106
+ManifoldAbsolutePressu
+re/BarometricPressureCircuit
+Range/PerformanceProblem
+P0107
+ManifoldAbsolutePressure/BarometricPressureCircuitLow
+Input
+P0108
+ManifoldAbsolutePressure/BarometricPressureCircuitHigh
+Input
+P0109
+ManifoldAbsolutePressure/BarometricPre
+ssureCircuit
+Intermittent
+P0110
+IntakeAirTemperatureCircuitMalfunction
+P0111
+IntakeAirTemperatureCircuitRange/PerformanceProblem
+P0112
+IntakeAirTemperatureCircuitLowInput
+P0113
+IntakeAirTemperatureCircuitHighInput
+P0114
 I
-nt a ke A ir Te m p e r a t ur e C ir cuit Int e r m it t e nt
-P 011 5
-E ng ine C oola nt Te m p e r a t ur e C ir cuit Ma lf un ct io n
-P 011 6
-E ng ine C oola nt Te m p e r a t ur e C ir cuit R a ng e / P e r form a nc e
-P r oble m
-P 011 7
-E ng ine C oola nt Te m p e r a t ur e C ir cuit L ow Inp ut
-P 011 8
-E ng ine C oola nt Te m p e r a t u
-r e C ir cuit Hig h Inp ut
-P 011 9
-E ng ine C oola nt Te m p e r a t ur e C ir cuit Int e r m it t e nt
-P 012 0
-Thr ot t le P o sit ion Se nsor / Sw it ch A C ir c uit Ma lf un ct io n
-P 012 1
-Thr ot t le P o sit ion Se nsor / Sw it ch A C ir c uit R a ng e / P e r for m a nce
-P r oble m
-P 012 2
-Thr ot t le P o sit ion Se nsor / Sw i
-t ch A C ir c uit L ow Inp ut
-P 012 3
-Thr ot t le P o sit ion Se nsor / Sw it ch A C ir c uit Hig h Inp ut
-P 012 4
-Thr ot t le P o sit ion Se nsor / Sw it ch A C ir c uit Int e r m it t e nt
-P 012 5
-Insu ffi cie nt C o ola nt Te m p e r a t ur e for C lose d Loop Fue l C ont r ol;
-E C T E xce ssi ve Tim e t o C los e d Loop
-Fue l C o nt r ol
-P 012 6
-Insu ffi cie nt C o ola nt Te m p e r a t ur e for St a b le O p e r a t ion
-P 012 8
-C oola nt T he r m ost a t Ma lf un ct ion
-P 012 9
-B a r om e t r ic P r e ssur e Too Lo w
-P 013 0
-O 2 Se ns or C ir c uit Ma lf un ct i on ( B a n k 1 Se nsor 1)
-P 013 1
-O 2 Se ns or C ir c uit L ow V olt a g e ( B a nk 1
-Se ns or 1)
-P 013 2
-O 2 Se ns or C ir c uit Hig h V olt a g e ( B a nk 1 Se nsor 1)
-P 013 3
-O 2 Se ns or C ir c uit Sl ow R e sponse ( B a n k 1 Se nsor 1)
-P 013 4
-O 2 Se ns or C ir c uit N o A ct i vit y De t e ct e d ( B a n k 1 Se ns or 1)
-P 013 5
-O 2 Se ns or He a t e r C ir c uit M a lfun ct ion ( B a nk 1 Se nsor 1
+ntakeAirTemperatureCircuitIntermittent
+P0115
+EngineCoolantTemperatureCircuitMalfunction
+P0116
+EngineCoolantTemperatureCircuitRange/Performance
+Problem
+P0117
+EngineCoolantTemperatureCircuitLowInput
+P0118
+EngineCoolantTemperatu
+reCircuitHighInput
+P0119
+EngineCoolantTemperatureCircuitIntermittent
+P0120
+ThrottlePositionSensor/SwitchACircuitMalfunction
+P0121
+ThrottlePositionSensor/SwitchACircuitRange/Performance
+Problem
+P0122
+ThrottlePositionSensor/Swi
+tchACircuitLowInput
+P0123
+ThrottlePositionSensor/SwitchACircuitHighInput
+P0124
+ThrottlePositionSensor/SwitchACircuitIntermittent
+P0125
+InsufficientCoolantTemperatureforClosedLoopFuelControl;
+ECTExcessiveTimetoClosedLoop
+FuelControl
+P0126
+InsufficientCoolantTemperatureforStableOperation
+P0128
+CoolantThermostatMalfunction
+P0129
+BarometricPressureTooLow
+P0130
+O2SensorCircuitMalfunction(Bank1Sensor1)
+P0131
+O2SensorCircuitLowVoltage(Bank1
+Sensor1)
+P0132
+O2SensorCircuitHighVoltage(Bank1Sensor1)
+P0133
+O2SensorCircuitSlowResponse(Bank1Sensor1)
+P0134
+O2SensorCircuitNoActivityDetected(Bank1Sensor1)
+P0135
+O2SensorHeaterCircuitMalfunction(Bank1Sensor1
 )
-P 013 6
-O 2 Se ns or C ir c uit Ma lf un ct i on ( B a n k 1 Se nsor 2)
-P 013 7
-O 2 Se ns or C ir c uit L ow V olt a g e ( B a nk 1 Se ns or 2)
-P 013 8
-O 2 Se ns or C ir c uit Hig h V olt a g e ( B a nk 1 Se nsor 2)
-P 013 9
-O 2 Se ns or C ir c uit Sl ow R e sponse ( B a n k 1 Se nsor 2)
-P 014 0
-O 2 Se ns or C ir c
-uit N o A ct i vit y De t e ct e d ( B a n k 1 Se ns or 2)
-P 014 1
-O 2 Se ns or He a t e r C ir c uit M a lfun ct ion ( B a nk 1 Se nsor 2 )
-P 014 2
-O 2 Se ns or C ir c uit Ma lf un ct i on ( B a n k 1 Se nsor 3)
-P 014 3
-O 2 Se ns or C ir c uit L ow V olt a g e ( B a nk 1 Se ns or 3)
-P 014 4
-O 2 Se ns or C ir c uit Hig h V ol
-t a g e ( B a nk 1 Se nsor 3)
-P 014 5
-O 2 Se ns or C ir c uit Sl ow R e sponse ( B a n k 1 Se nsor 3)
-P 014 6
-O 2 Se ns or C ir c uit N o A ct i vit y De t e ct e d ( B a n k 1 Se ns or 3)
-P 014 7
-O 2 Se ns or He a t e r C ir c uit M a lfun ct ion ( B a nk 1 Se nsor 3 )
-P 015 0
-O 2 Se ns or C ir c uit Ma lf un ct i on ( B a n k
-2 Se nsor 1)
-P 015 1
-O 2 Se ns or C ir c uit L ow V olt a g e ( B a nk 2 Se ns or 1)
-P 015 2
-O 2 Se ns or C ir c uit Hig h V olt a g e ( B a nk 2 Se nsor 1)
-P 015 3
-O 2 Se ns or C ir c uit Sl ow R e sponse ( B a n k 2 Se nsor 1)
-P 015 4
-O 2 Se ns or C ir c uit N o A ct i vit y De t e ct e d ( B a n k 2 Se ns or 1)
-P 015 5
-O 2 Se ns or He a t e r C ir c uit M a lfun ct ion ( B a nk 2 Se nsor 1 )
-P 015 6
-O 2 Se ns or C ir c uit Ma lf un ct i on ( B a n k 2 Se nsor 2)
-P 015 7
-O 2 Se ns or C ir c uit L ow V olt a g e ( B a nk 2 Se ns or 2)
-P 015 8
-O 2 Se ns or C ir c uit Hig h V olt a g e ( B a nk 2 Se nsor 2)
-P 015 9
-O 2 Se ns or C ir c
-uit Sl ow R e sponse ( B a n k 2 Se nsor 2)
-P 016 0
-O 2 Se ns or C ir c uit N o A ct i vit y De t e ct e d ( B a n k 2 Se ns or 2)
-P 016 1
-O 2 Se ns or He a t e r C ir c uit M a lfun ct ion ( B a nk 2 Se nsor 2 )
-P 016 2
-O 2 Se ns or C ir c uit Ma lf un ct i on ( B a n k 2 Se nsor 3)
-P 016 3
-O 2 Se ns or C ir c uit L ow V o
-lt a g e ( B a nk 2 Se ns or 3)
-P 016 4
-O 2 Se ns or C ir c uit Hig h V olt a g e ( B a nk 2 Se nsor 3)
-P 016 5
-O 2 Se ns or C ir c uit Sl ow R e sponse ( B a n k 2 Se nsor 3)
-P 016 6
-O 2 Se ns or C ir c uit N o A ct i vit y De t e ct e d ( B a n k 2 Se ns or 3)
-P 016 7
-O 2 Se ns or He a t e r C ir c uit M a lfun ct ion ( B a
-nk 2 Se nsor 3 )
-P 017 0
-Fue l Tr im Ma lf un ct ion ( B a n k 1)
-P 017 1
-Fue l Tr im t oo Le a n ( B a nk 1 )
-P 017 2
-Fue l Tr im t oo R ic h ( B a n k 1)
-P 017 3
-Fue l Tr im Ma lf un ct ion ( B a n k 2)
-P 017 4
-Fue l Tr im t oo Le a n ( B a nk 2 )
-P 017 5
-Fue l Tr im t oo R ic h ( B a n k 2)
-P 017 6
-Fue l
-C om p o sit ion Se ns or C i r cuit Ma lf un ct ion
-P 017 7
-Fue l C om p o sit ion Se ns or C i r cuit R a ng e / P e r form a nce
-P 017 8
-Fue l C om p o sit ion Se ns or C i r cuit L ow Inp ut
-P 017 9
-Fue l C om p o sit ion Se ns or C i r cuit Hig h Inp ut
-P 018 0
-Fue l Te m p e r a t ur e Se ns or A C ir cuit Ma l fu nct io n
-P 018 1
-Fue l Te m p e r a t ur e Se ns or A C ir cuit R a ng e / P e r form a nce
-P 018 2
-Fue l Te m p e r a t ur e Se ns or A C ir cuit Low Inp ut
-P 018 3
-Fue l Te m p e r a t ur e Se ns or A C ir cuit Hig h I np ut
-P 018 4
-Fue l Te m p e r a t ur e Se ns or A C ir cuit I nt e r m it t e nt
-P 018 5
-Fue l Te m p e r a t ur e Se ns o
-r B C ir cuit Ma l fu nct io n
-P 018 6
-Fue l Te m p e r a t ur e Se ns or B C ir cuit R a ng e / P e r form a nce
-P 018 7
-Fue l Te m p e r a t ur e Se ns or B C ir cuit Low Inp ut
-P 018 8
-Fue l Te m p e r a t ur e Se ns or B C ir cuit Hig h I np ut
-P 018 9
-Fue l Te m p e r a t ur e Se ns or B C ir cuit I nt e r m it t e nt
-P 019 0
-Fue l R a il P r e ssur e Se nsor C ir cuit Ma l fun ct io n
-P 019 1
-Fue l R a il P r e ssur e Se nsor C ir cuit R a ng e / P e r form a nce
-P 019 2
-Fue l R a il P r e ssur e Se nsor C ir cuit L ow Inp ut
-P 019 3
-Fue l R a il P r e ssur e Se nsor C ir cuit Hig h Inp ut
-P 019 4
-Fue l R a il P r e ssur e Se nsor C ir cui
-t I nt e r m it t e nt
-P 019 5
-E ng ine O il Te m p e r a t ur e Se nsor Ma l fun ct io n
-P 019 6
-E ng ine O il Te m p e r a t ur e Se nsor R a ng e / P e r form a nce
-P 019 7
-E ng ine O il Te m p e r a t ur e Se nsor L ow
-P 019 8
-E ng ine O il Te m p e r a t ur e Se nsor Hig h
-P 019 9
-E ng ine O il Te m p e r a t ur e Se nsor I nt e r m i
-t t e nt
-P 020 0
-Inje ct o r C ir c uit Ma lf un ct ion
-P 020 1
-Inje ct o r C ir c uit Ma lf un ct ion
+P0136
+O2SensorCircuitMalfunction(Bank1Sensor2)
+P0137
+O2SensorCircuitLowVoltage(Bank1Sensor2)
+P0138
+O2SensorCircuitHighVoltage(Bank1Sensor2)
+P0139
+O2SensorCircuitSlowResponse(Bank1Sensor2)
+P0140
+O2SensorCirc
+uitNoActivityDetected(Bank1Sensor2)
+P0141
+O2SensorHeaterCircuitMalfunction(Bank1Sensor2)
+P0142
+O2SensorCircuitMalfunction(Bank1Sensor3)
+P0143
+O2SensorCircuitLowVoltage(Bank1Sensor3)
+P0144
+O2SensorCircuitHighVol
+tage(Bank1Sensor3)
+P0145
+O2SensorCircuitSlowResponse(Bank1Sensor3)
+P0146
+O2SensorCircuitNoActivityDetected(Bank1Sensor3)
+P0147
+O2SensorHeaterCircuitMalfunction(Bank1Sensor3)
+P0150
+O2SensorCircuitMalfunction(Bank
+2Sensor1)
+P0151
+O2SensorCircuitLowVoltage(Bank2Sensor1)
+P0152
+O2SensorCircuitHighVoltage(Bank2Sensor1)
+P0153
+O2SensorCircuitSlowResponse(Bank2Sensor1)
+P0154
+O2SensorCircuitNoActivityDetected(Bank2Sensor1)
+P0155
+O2SensorHeaterCircuitMalfunction(Bank2Sensor1)
+P0156
+O2SensorCircuitMalfunction(Bank2Sensor2)
+P0157
+O2SensorCircuitLowVoltage(Bank2Sensor2)
+P0158
+O2SensorCircuitHighVoltage(Bank2Sensor2)
+P0159
+O2SensorCirc
+uitSlowResponse(Bank2Sensor2)
+P0160
+O2SensorCircuitNoActivityDetected(Bank2Sensor2)
+P0161
+O2SensorHeaterCircuitMalfunction(Bank2Sensor2)
+P0162
+O2SensorCircuitMalfunction(Bank2Sensor3)
+P0163
+O2SensorCircuitLowVo
+ltage(Bank2Sensor3)
+P0164
+O2SensorCircuitHighVoltage(Bank2Sensor3)
+P0165
+O2SensorCircuitSlowResponse(Bank2Sensor3)
+P0166
+O2SensorCircuitNoActivityDetected(Bank2Sensor3)
+P0167
+O2SensorHeaterCircuitMalfunction(Ba
+nk2Sensor3)
+P0170
+FuelTrimMalfunction(Bank1)
+P0171
+FuelTrimtooLean(Bank1)
+P0172
+FuelTrimtooRich(Bank1)
+P0173
+FuelTrimMalfunction(Bank2)
+P0174
+FuelTrimtooLean(Bank2)
+P0175
+FuelTrimtooRich(Bank2)
+P0176
+Fuel
+CompositionSensorCircuitMalfunction
+P0177
+FuelCompositionSensorCircuitRange/Performance
+P0178
+FuelCompositionSensorCircuitLowInput
+P0179
+FuelCompositionSensorCircuitHighInput
+P0180
+FuelTemperatureSensorACircuitMalfunction
+P0181
+FuelTemperatureSensorACircuitRange/Performance
+P0182
+FuelTemperatureSensorACircuitLowInput
+P0183
+FuelTemperatureSensorACircuitHighInput
+P0184
+FuelTemperatureSensorACircuitIntermittent
+P0185
+FuelTemperatureSenso
+rBCircuitMalfunction
+P0186
+FuelTemperatureSensorBCircuitRange/Performance
+P0187
+FuelTemperatureSensorBCircuitLowInput
+P0188
+FuelTemperatureSensorBCircuitHighInput
+P0189
+FuelTemperatureSensorBCircuitIntermittent
+P0190
+FuelRailPressureSensorCircuitMalfunction
+P0191
+FuelRailPressureSensorCircuitRange/Performance
+P0192
+FuelRailPressureSensorCircuitLowInput
+P0193
+FuelRailPressureSensorCircuitHighInput
+P0194
+FuelRailPressureSensorCircui
+tIntermittent
+P0195
+EngineOilTemperatureSensorMalfunction
+P0196
+EngineOilTemperatureSensorRange/Performance
+P0197
+EngineOilTemperatureSensorLow
+P0198
+EngineOilTemperatureSensorHigh
+P0199
+EngineOilTemperatureSensorIntermi
+ttent
+P0200
+InjectorCircuitMalfunction
+P0201
+InjectorCircuitMalfunction
 -
-C ylin d e r 1
-P 020 2
-Inje ct o r C ir c uit Ma lf un ct ion
+Cylinder1
+P0202
+InjectorCircuitMalfunction
 -
-C ylin d e r 2
-P 020 3
-Inje ct o r C ir c uit Ma lf un ct ion
+Cylinder2
+P0203
+InjectorCircuitMalfunction
 -
-C ylin d e r 3
-P 020 4
-Inje ct o r C ir c uit Ma lf un ct ion
+Cylinder3
+P0204
+InjectorCircuitMalfunction
 -
-C ylin d e r 4
-P 020 5
-Inje ct o r C ir c uit Ma lf un ct ion
+Cylinder4
+P0205
+InjectorCircuitMalfunction
 -
-C ylin d e r 5
-P 020 6
-Inje ct o r C ir c uit Ma lf un ct ion
+Cylinder5
+P0206
+InjectorCircuitMalfunction
 -
-C ylin d e r 6
-P 020 7
-Inje ct o r C ir c uit Ma lf un ct ion
+Cylinder6
+P0207
+InjectorCircuitMalfunction
 -
-C ylin d e r 7
-P 020 8
-Inje ct o r C ir c uit Ma lf un ct ion
+Cylinder7
+P0208
+InjectorCircuitMalfunction
 -
-C ylin d e r 8
-P 020 9
-Inje ct o r C ir c uit Ma lf un ct ion
+Cylinder8
+P0209
+InjectorCircuitMalfunction
 -
-C ylin d e r 9
-P 021 0
-Inje ct o r C ir c uit Ma lf un ct ion
+Cylinder9
+P0210
+InjectorCircuitMalfunction
 -
-C ylin d e r 10
-P 021 1
-Inje ct o r C ir c uit Ma lf un ct ion
+Cylinder10
+P0211
+InjectorCircuitMalfunction
 -
-C ylin d e r 11
-P 021 2
-Inje ct o r C ir c uit Ma lf un ct ion
+Cylinder11
+P0212
+InjectorCircuitMalfunction
 -
-C ylin d e r 12
-P 021 3
-C old St a r t Inje ct or 1 Ma lf un ct ion
-P 021 4
-C old St a r t Inje ct or 2 Ma lf un ct ion
-P 021 5
-E ng ine S hut o ff
-Sole n oid Ma lfu nct io n
-P 021 6
-Inje ct i on Tim ing C ont r ol C i r cuit Ma lf un ct ion
-P 021 7
-E ng ine O ve r t e m p C o nd it ion
-P 021 8
-Tr a nsm is sion O ve r Te m p e r a t ur e C ond it io n
-P 021 9
-E ng ine O ve r spe e d C o nd it io n
-P 022 0
-Thr ot t le / P e t a l P osit io n Se n s or/ Sw it ch B C ir c uit Ma l
-f unct ion
-P 022 1
-Thr ot t le / P e t a l P osit io n Se n s or/ Sw it ch B C ir c uit
-R a ng e / P e r form a nce P r oble m
-P 022 2
-Thr ot t le / P e t a l P osit io n Se n s or/ Sw it ch B C ir c uit Low I np ut
-P 022 3
-Thr ot t le / P e t a l P osit io n Se n s or/ Sw it ch B C ir c uit High I np ut
-P 022 4
-Thr ot t le / P e t a l P osit
-io n Se n s or/ Sw it ch B C ir c uit Int e r m it t e nt
-P 022 5
-Thr ot t le / P e t a l P osit io n Se n s or/ Sw it ch C C ir cu it Ma lfu nct ion
-P 022 6
-Thr ot t le / P e t a l P osit io n Se n s or/ Sw it ch C C ir cu it
-R a ng e / P e r form a nce P r oble m
-P 022 7
-Thr ot t le / P e t a l P osit io n Se n s or/ Sw it ch C C ir cu it Low I n
-p ut
-P 022 8
-Thr ot t le / P e t a l P osit io n Se n s or/ Sw it ch C C ir cu it High I n p ut
-P 022 9
-Thr ot t le / P e t a l P osit io n Se n s or/ Sw it ch C C ir cu it Int e r m it t e nt
-P 023 0
-Fue l P um p P r im a r y C ir c uit Ma lfun ct io n
-P 023 1
-Fue l P um p Se co nd a r y C ir cu it Low
-P 023 2
-Fue l P um p Se co nd a
-r y C ir cu it High
-P 023 3
-Fue l P um p Se co nd a r y C ir cu it Int e r m it t e nt
-P 023 4
-E ng ine O ve r b o ost C o nd it ion
-P 023 5
-Tur b o cha r g e r B oost Se nsor A C ir cuit Ma l fu nct io n
-P 023 6
-Tur b o cha r g e r B oost Se nsor A C ir cuit R a ng e / P e r form a n ce
-P 023 7
-Tur b o cha r g e r B oost Se nsor
-A C ir cuit Low
-P 023 8
-Tur b o cha r g e r B oost Se nsor A C ir cuit Hig h
-P 023 9
-Tur b o cha r g e r B oost Se nsor B Ma lfu nct io n
-P 024 0
-Tur b o cha r g e r B oost Se nsor B C ir cuit R a ng e / P e r f orm a n ce
-P 024 1
-Tur b o cha r g e r B oost Se nsor B C ir cuit Low
-P 024 2
-Tur b o cha r g e r B oost Se
-nsor B C ir cuit High
-P 024 3
-Tur b o cha r g e r W a st e g a t e S ole noid A Ma l fu nct io n
-P 024 4
-Tur b o cha r g e r W a st e g a t e S ole noid A R a ng e / P e r form a n ce
-P 024 5
-Tur b o cha r g e r W a st e g a t e S ole noid A Low
-P 024 6
-Tur b o cha r g e r W a st e g a t e S ole noid A Hig h
-P 024 7
-Tur b o cha r g e r W a s
-t e g a t e S ole noid B Ma l fu nct io n
-P 024 8
-Tur b o cha r g e r W a st e g a t e S ole noid B R a ng e / P e r f orm a n ce
-P 024 9
-Tur b o cha r g e r W a st e g a t e S ole noid B Low
-P 025 0
-Tur b o cha r g e r W a st e g a t e S ole noid B H ig h
-P 025 1
-Inje ct i on P um p Fue l Me t e r ing C ont r ol "A " Ma lf unct i on
-( C a m / R ot
-or/ Inje ct or)
-P 025 2
-Inje ct i on P um p Fue l Me t e r ing C ont r ol "A " R a ng e / P e r fo r m a nce
-( C a m / R ot or/ Inje ct or)
-P 025 3
-Inje ct i on P um p Fue l Me t e r ing C ont r ol "A " Low
-( C a m / R ot or/ Inje ct or)
-P 025 4
-Inje ct i on P um p Fue l Me t e r ing C ont r ol "A " High
-( C a m / R ot or/ Inje ct or)
-P 025 5
-Inje ct i on P um p Fue l Me t e r ing C ont r ol "A " Int e r m it t e nt
-( C a m / R ot or/ Inje ct or)
-P 025 6
-Inje ct i on P um p Fue l Me t e r ing C ont r ol "B " Ma lf un ct ion
-( C a m / R ot or/ Inje ct or)
-P 025 7
-Inje ct i on P um p Fue l Me t e r ing C ont r ol "B " R a ng e / P e r fo r m a nce
-( C a m / R ot or/ Inje ct or)
-P 025 8
-Inje ct i on P um p Fue l Me t e r ing C ont r ol "B " Low
-( C a m / R ot or/ Inje ct or)
-P 025 9
-Inje ct i on P um p Fue l Me t e r ing C ont r ol "B " Hig h
-( C a m / R ot or/ Inje ct or)
-P 026 0
-Inje ct i on P um p Fue l Me t e r ing C ont r ol "B " Int e r m it t e nt
-( C a m / R ot or/ Inje ct or)
-P 026 1
-C ylind e r 1 In je
-ct or C ir cuit L ow
-P 026 2
-C ylind e r 1 In je ct or C ir cuit H ig h
-P 026 3
-C ylind e r 1 C ont r ib ut io n/ B a la nce Fa ult
-P 026 4
-C ylind e r 2 In je ct or C ir cuit L ow
-P 026 5
-C ylind e r 2 In je ct or C ir cuit H ig h
-P 026 6
-C ylind e r 2 C ont r ib ut io n/ B a la nce Fa ult
-P 026 7
-C ylind e r 3
-In je ct or C ir cuit L ow
-P 026 8
-C ylind e r 3 In je ct or C ir cuit H ig h
-P 026 9
-C ylind e r 3 C ont r ib ut io n/ B a la nce Fa ult
-P 027 0
-C ylind e r 4 In je ct or C ir cuit L ow
-P 027 1
-C ylind e r 4 In je ct or C ir cuit H ig h
-P 027 2
-C ylind e r 4 C ont r ib ut io n/ B a la nce Fa ult
-P 027 3
-C ylind e
-r 5 In je ct or C ir cuit L ow
-P 027 4
-C ylind e r 5 In je ct or C ir cuit H ig h
-P 027 5
-C ylind e r 5 C ont r ib ut io n/ B a la nce Fa ult
-P 027 6
-C ylind e r 6 In je ct or C ir cuit L ow
-P 027 7
-C ylind e r 6 In je ct or C ir cuit H ig h
-P 027 8
-C ylind e r 6 C ont r ib ut io n/ B a la nce Fa ult
-P 027 9
-C yl
-ind e r 7 In je ct or C ir cuit L ow
-P 028 0
-C ylind e r 7 In je ct or C ir cuit H ig h
-P 028 1
-C ylind e r 7 C ont r ib ut io n/ B a la nce Fa ult
-P 028 2
-C ylind e r 8 In je ct or C ir cuit L ow
-P 028 3
-C ylind e r 8 In je ct or C ir cuit H ig h
-P 028 4
-C ylind e r 8 C ont r ib ut io n/ B a la nce Fa ult
-P 028 5
-C ylind e r 9 In je ct or C ir cuit L ow
-P 028 6
-C ylind e r 9 In je ct or C ir cuit H ig h
-P 028 7
-C ylind e r 9 C ont r ib ut io n/ B a la nce Fa ult
-P 028 8
-C ylind e r 10 I nje ct or C ir c uit Low
-P 028 9
-C ylind e r 10 I nje ct or C ir c uit High
-P 029 0
-C ylind e r 10 C o nt r ib ut i on/ B a la nce Fa ult
-P 029 1
-C ylind e r 11 I nje ct or C ir c uit Low
-P 029 2
-C ylind e r 11 I nje ct or C ir c uit High
-P 029 3
-C ylind e r 11 C o nt r ib ut i on/ B a la nce Fa ult
-P 029 4
-C ylind e r 12 I nje ct or C ir c uit Low
-P 029 5
-C ylind e r 12 I nje ct or C ir c uit High
-P 029 6
-C ylind e r 12 C o nt r ib ut i on/ R a ng e
-Fa ult
-P 030 0
-R a nd om / Mult ip le C yli nd e r Misfir e De t e ct e d
-P 030 1
-C ylind e r 1 Mis fir e De t e ct e d
-P 030 2
-C ylind e r 2 Mis fir e De t e ct e d
-P 030 3
-C ylind e r 3 Mis fir e De t e ct e d
-P 030 4
-C ylind e r 4 Mis fir e De t e ct e d
-P 030 5
-C ylind e r 5 Mis fir e De t e ct e d
-P 030 6
-C yli
-nd e r 6 Mis fir e De t e ct e d
-P 030 7
-C ylind e r 7 Mis fir e De t e ct e d
-P 030 8
-C ylind e r 8 Mis fir e De t e ct e d
-P 030 9
-C ylind e r 9 Mis fir e De t e ct e d
-P 031 0
-C ylind e r 10 Mi sfir e De t e ct e d
-P 031 1
-C ylind e r 11 Mi sfir e De t e ct e d
-P 031 2
-C ylind e r 12 Mi sfir e De t e ct e d
-P 032
+Cylinder12
+P0213
+ColdStartInjector1Malfunction
+P0214
+ColdStartInjector2Malfunction
+P0215
+EngineShutoff
+SolenoidMalfunction
+P0216
+InjectionTimingControlCircuitMalfunction
+P0217
+EngineOvertempCondition
+P0218
+TransmissionOverTemperatureCondition
+P0219
+EngineOverspeedCondition
+P0220
+Throttle/PetalPositionSensor/SwitchBCircuitMal
+function
+P0221
+Throttle/PetalPositionSensor/SwitchBCircuit
+Range/PerformanceProblem
+P0222
+Throttle/PetalPositionSensor/SwitchBCircuitLowInput
+P0223
+Throttle/PetalPositionSensor/SwitchBCircuitHighInput
+P0224
+Throttle/PetalPosit
+ionSensor/SwitchBCircuitIntermittent
+P0225
+Throttle/PetalPositionSensor/SwitchCCircuitMalfunction
+P0226
+Throttle/PetalPositionSensor/SwitchCCircuit
+Range/PerformanceProblem
+P0227
+Throttle/PetalPositionSensor/SwitchCCircuitLowIn
+put
+P0228
+Throttle/PetalPositionSensor/SwitchCCircuitHighInput
+P0229
+Throttle/PetalPositionSensor/SwitchCCircuitIntermittent
+P0230
+FuelPumpPrimaryCircuitMalfunction
+P0231
+FuelPumpSecondaryCircuitLow
+P0232
+FuelPumpSeconda
+ryCircuitHigh
+P0233
+FuelPumpSecondaryCircuitIntermittent
+P0234
+EngineOverboostCondition
+P0235
+TurbochargerBoostSensorACircuitMalfunction
+P0236
+TurbochargerBoostSensorACircuitRange/Performance
+P0237
+TurbochargerBoostSensor
+ACircuitLow
+P0238
+TurbochargerBoostSensorACircuitHigh
+P0239
+TurbochargerBoostSensorBMalfunction
+P0240
+TurbochargerBoostSensorBCircuitRange/Performance
+P0241
+TurbochargerBoostSensorBCircuitLow
+P0242
+TurbochargerBoostSe
+nsorBCircuitHigh
+P0243
+TurbochargerWastegateSolenoidAMalfunction
+P0244
+TurbochargerWastegateSolenoidARange/Performance
+P0245
+TurbochargerWastegateSolenoidALow
+P0246
+TurbochargerWastegateSolenoidAHigh
+P0247
+TurbochargerWas
+tegateSolenoidBMalfunction
+P0248
+TurbochargerWastegateSolenoidBRange/Performance
+P0249
+TurbochargerWastegateSolenoidBLow
+P0250
+TurbochargerWastegateSolenoidBHigh
+P0251
+InjectionPumpFuelMeteringControl"A"Malfunction
+(Cam/Rot
+or/Injector)
+P0252
+InjectionPumpFuelMeteringControl"A"Range/Performance
+(Cam/Rotor/Injector)
+P0253
+InjectionPumpFuelMeteringControl"A"Low
+(Cam/Rotor/Injector)
+P0254
+InjectionPumpFuelMeteringControl"A"High
+(Cam/Rotor/Injector)
+P0255
+InjectionPumpFuelMeteringControl"A"Intermittent
+(Cam/Rotor/Injector)
+P0256
+InjectionPumpFuelMeteringControl"B"Malfunction
+(Cam/Rotor/Injector)
+P0257
+InjectionPumpFuelMeteringControl"B"Range/Performance
+(Cam/Rotor/Injector)
+P0258
+InjectionPumpFuelMeteringControl"B"Low
+(Cam/Rotor/Injector)
+P0259
+InjectionPumpFuelMeteringControl"B"High
+(Cam/Rotor/Injector)
+P0260
+InjectionPumpFuelMeteringControl"B"Intermittent
+(Cam/Rotor/Injector)
+P0261
+Cylinder1Inje
+ctorCircuitLow
+P0262
+Cylinder1InjectorCircuitHigh
+P0263
+Cylinder1Contribution/BalanceFault
+P0264
+Cylinder2InjectorCircuitLow
+P0265
+Cylinder2InjectorCircuitHigh
+P0266
+Cylinder2Contribution/BalanceFault
+P0267
+Cylinder3
+InjectorCircuitLow
+P0268
+Cylinder3InjectorCircuitHigh
+P0269
+Cylinder3Contribution/BalanceFault
+P0270
+Cylinder4InjectorCircuitLow
+P0271
+Cylinder4InjectorCircuitHigh
+P0272
+Cylinder4Contribution/BalanceFault
+P0273
+Cylinde
+r5InjectorCircuitLow
+P0274
+Cylinder5InjectorCircuitHigh
+P0275
+Cylinder5Contribution/BalanceFault
+P0276
+Cylinder6InjectorCircuitLow
+P0277
+Cylinder6InjectorCircuitHigh
+P0278
+Cylinder6Contribution/BalanceFault
+P0279
+Cyl
+inder7InjectorCircuitLow
+P0280
+Cylinder7InjectorCircuitHigh
+P0281
+Cylinder7Contribution/BalanceFault
+P0282
+Cylinder8InjectorCircuitLow
+P0283
+Cylinder8InjectorCircuitHigh
+P0284
+Cylinder8Contribution/BalanceFault
+P0285
+Cylinder9InjectorCircuitLow
+P0286
+Cylinder9InjectorCircuitHigh
+P0287
+Cylinder9Contribution/BalanceFault
+P0288
+Cylinder10InjectorCircuitLow
+P0289
+Cylinder10InjectorCircuitHigh
+P0290
+Cylinder10Contribution/BalanceFault
+P0291
+Cylinder11InjectorCircuitLow
+P0292
+Cylinder11InjectorCircuitHigh
+P0293
+Cylinder11Contribution/BalanceFault
+P0294
+Cylinder12InjectorCircuitLow
+P0295
+Cylinder12InjectorCircuitHigh
+P0296
+Cylinder12Contribution/Range
+Fault
+P0300
+Random/MultipleCylinderMisfireDetected
+P0301
+Cylinder1MisfireDetected
+P0302
+Cylinder2MisfireDetected
+P0303
+Cylinder3MisfireDetected
+P0304
+Cylinder4MisfireDetected
+P0305
+Cylinder5MisfireDetected
+P0306
+Cyli
+nder6MisfireDetected
+P0307
+Cylinder7MisfireDetected
+P0308
+Cylinder8MisfireDetected
+P0309
+Cylinder9MisfireDetected
+P0310
+Cylinder10MisfireDetected
+P0311
+Cylinder11MisfireDetected
+P0312
+Cylinder12MisfireDetected
+P032
 0
-Ig nit ion/ Dist r ib ut or E ng ine Sp e e d Inp ut C ir cuit Ma lfu nc t ion
-P 032 1
-Ig nit ion/ Dist r ib ut or E ng ine Sp e e d Inp ut C ir cuit
-R a ng e / P e r form a nce
-P 032 2
-Ig nit ion/ Dist r ib ut or E ng ine Sp e e d Inp ut C ir cuit No Sig n a l
-P 032 3
-Ig nit ion/ Dist r ib ut or E ng ine Sp e e d Inp ut C ir
-cuit I nt e r m i t t e nt
-P 032 5
-K noc k Se n sor 1 C ir c uit Ma lf unct i on ( B a n k 1 or Si ng le S e nsor )
-P 032 6
-K noc k Se n sor 1 C ir c uit R a n g e / P e r form a nce ( B a n k 1 or Sing le
-Se nsor )
-P 032 7
-K noc k Se n sor 1 C ir c uit Low Inp ut ( B a n k 1 or Si ng le Se nsor )
-P 032 8
-K noc k Se n sor 1
-C ir c uit High Inp ut ( B a n k 1 or Si ng le Se nsor )
-P 032 9
-K noc k Se n sor 1 C ir c uit Int e r m it t e nt ( B a nk 1 or Si ng le Se nsor )
-P 033 0
-K noc k Se n sor 2 C ir c uit Ma lf unct i on ( B a n k 2)
-P 033 1
-K noc k Se n sor 2 C ir c uit R a n g e / P e r form a nce ( B a n k 2)
-P 033 2
-K noc k Se n sor 2 C ir c
-uit Low Inp ut ( B a n k 2)
-P 033 3
-K noc k Se n sor 2 C ir c uit High Inp ut ( B a n k 2)
-P 033 4
-K noc k Se n sor 2 C ir c uit Int e r m it t e nt ( B a nk 2)
-P 033 5
-C r a nksha ft P osit io n Se nsor A C ir cuit Ma l fu nct io n
-P 033 6
-C r a nksha ft P osit io n Se nsor A C ir cuit R a ng e / P e r form a nc e
-P 0
-33 7
-C r a nksha ft P osit io n Se nsor A C ir cuit Low Inp ut
-P 033 8
-C r a nksha ft P osit io n Se nsor A C ir cuit Hig h In p ut
-P 033 9
-C r a nksha ft P osit io n Se nsor A C ir cuit I nt e r m it t e nt
-P 034 0
-C a m sha ft P osit io n Se nsor C ir cuit Ma l fun ct io n
-P 034 1
-C a m sha ft P osit io n Se nsor C
-ir cuit R a ng e / P e r form a nce
-P 034 2
-C a m sha ft P osit io n Se nsor C ir cuit L ow Inp ut
-P 034 3
-C a m sha ft P osit io n Se nsor C ir cuit Hig h Inp ut
-P 034 4
-C a m sha ft P osit io n Se nsor C ir cuit I nt e r m it t e nt
-P 035 0
-Ig nit ion C oil P r im a r y/ Se con d a r y C ir cuit Ma lfu nct i on
-P 035 1
+Ignition/DistributorEngineSpeedInputCircuitMalfunction
+P0321
+Ignition/DistributorEngineSpeedInputCircuit
+Range/Performance
+P0322
+Ignition/DistributorEngineSpeedInputCircuitNoSignal
+P0323
+Ignition/DistributorEngineSpeedInputCir
+cuitIntermittent
+P0325
+KnockSensor1CircuitMalfunction(Bank1orSingleSensor)
+P0326
+KnockSensor1CircuitRange/Performance(Bank1orSingle
+Sensor)
+P0327
+KnockSensor1CircuitLowInput(Bank1orSingleSensor)
+P0328
+KnockSensor1
+CircuitHighInput(Bank1orSingleSensor)
+P0329
+KnockSensor1CircuitIntermittent(Bank1orSingleSensor)
+P0330
+KnockSensor2CircuitMalfunction(Bank2)
+P0331
+KnockSensor2CircuitRange/Performance(Bank2)
+P0332
+KnockSensor2Circ
+uitLowInput(Bank2)
+P0333
+KnockSensor2CircuitHighInput(Bank2)
+P0334
+KnockSensor2CircuitIntermittent(Bank2)
+P0335
+CrankshaftPositionSensorACircuitMalfunction
+P0336
+CrankshaftPositionSensorACircuitRange/Performance
+P0
+337
+CrankshaftPositionSensorACircuitLowInput
+P0338
+CrankshaftPositionSensorACircuitHighInput
+P0339
+CrankshaftPositionSensorACircuitIntermittent
+P0340
+CamshaftPositionSensorCircuitMalfunction
+P0341
+CamshaftPositionSensorC
+ircuitRange/Performance
+P0342
+CamshaftPositionSensorCircuitLowInput
+P0343
+CamshaftPositionSensorCircuitHighInput
+P0344
+CamshaftPositionSensorCircuitIntermittent
+P0350
+IgnitionCoilPrimary/SecondaryCircuitMalfunction
+P0351
 I
-g nit ion C oil A P r im a r y/ Se c ond a r y C ir cuit Ma l fu nct io n
-P 035 2
-Ig nit ion C oil B P r im a r y/ Se c ond a r y C ir cuit Ma l fu nct io n
-P 035 3
-Ig nit ion C oil C P r im a r y/ Se c ond a r y C ir cuit Ma l fu nct io n
-P 035 4
-Ig nit ion C oil D P r im a r y/ Se c ond a r y C ir cuit Ma l fu nct io n
-P 035 5
-Ig nit
-ion C oil E P r im a r y/ Se c ond a r y C ir cuit Ma l fu nct io n
-P 035 6
-Ig nit ion C oil F P r im a r y/ Se co nd a r y C ir c uit Ma lf un ct ion
-P 035 7
-Ig nit ion C oil G P r im a r y/ Se c ond a r y C ir cuit Ma l fu nct io n
-P 035 8
-Ig nit ion C oil H P r im a r y/ Se c ond a r y C ir cuit Ma l fu nct io n
-P 035 9
-Ig nit ion
-C oil I P r im a r y/ Se co nd a r y C ir c uit Ma lf un ct ion
-P 036 0
-Ig nit ion C oil J P r im a r y/ Se c o nd a r y C ir c uit Ma lf un ct ion
-P 036 1
-Ig nit ion C oil K P r im a r y/ Se c ond a r y C ir cuit Ma l fu nct io n
-P 036 2
-Ig nit ion C oil L P r im a r y/ Se co nd a r y C ir c uit Ma lf un ct ion
-P 037 0
-Tim ing R e fe r e
-nce Hig h R e s olut ion Sig na l A Ma lfu nct io n
-P 037 1
-Tim ing R e fe r e nce Hig h R e s olut ion Sig na l A Too Ma ny P ulse s
-P 037 2
-Tim ing R e fe r e nce Hig h R e s olut ion Sig na l A Too Fe w P ulse s
-P 037 3
-Tim ing R e fe r e nce Hig h R e s olut ion Sig na l A I nt e r m it t e n t / E r r a t ic
-P ulse s
-P 037 4
-Tim ing R e fe r e nce Hig h R e s olut ion Sig na l A No P ulse s
-P 037 5
-Tim ing R e fe r e nce Hig h R e s olut ion Sig na l B Ma lfu nct i on
-P 037 6
-Tim ing R e fe r e nce Hig h R e s olut ion Sig na l B To o Ma n y P ulse s
-P 037 7
-Tim ing R e fe r e nce Hig h R e s olut ion Sig na l B To o Fe w P ulse s
-P 037 8
-Tim ing R e fe r e nce Hig h R e s olut ion Sig na l B Int e r m it t e n t / E r r a t ic
-P ulse s
-P 037 9
-Tim ing R e fe r e nce Hig h R e s olut ion Sig na l B No P ulse s
-P 038 0
-Glow P lug / He a t e r C ir cuit "A " Ma lf unct i on
-P 038 1
-Glow P lug / He a t e r In d ica t or C ir cuit Ma l fun ct io n
-P 038 2
-E xh
-a ust Ga s R e c ir cu la t ion F low Ma lfu nct io n
-P 038 5
-C r a nksha ft P osit io n Se nsor B C ir cuit Ma l fu nct io n
-P 038 6
-C r a nksha ft P osit io n Se nsor B C ir cuit R a ng e / P e r f orm a nc e
-P 038 7
-C r a nksha ft P osit io n Se nsor B C ir cuit Low Inp ut
-P 038 8
-C r a nksha ft P osit io n Se nsor B
-C ir cuit H ig h I np ut
-P 038 9
-C r a nksha ft P osit io n Se nsor B C ir cuit I nt e r m it t e nt
-P 040 0
-E xha ust Ga s R e c ir cu la t ion F low Ma lfu nct io n
-P 040 1
-E xha ust Ga s R e c ir cu la t ion F low Insu ff icie nt De t e ct e d
-P 040 2
-E xha ust Ga s R e c ir cu la t ion F low E xce ssive De t e ct e d
-P 0
-40 3
-E xha ust Ga s R e c ir cu la t ion C ir cuit Ma l fun ct io n
-P 040 4
-E xha ust Ga s R e c ir cu la t ion C ir cuit R a ng e / P e r form a nce
-P 040 5
-E xha ust Ga s R e c ir cu la t ion S e nsor A C ir c uit L ow
-P 040 6
-E xha ust Ga s R e c ir cu la t ion S e nsor A C ir c uit Hig h
-P 040 7
-E xha ust Ga s R e c ir cu la t i
-on S e nsor B C ir cuit Low
-P 040 8
-E xha ust Ga s R e c ir cu la t ion S e nsor B C ir cuit Hig h
-P 041 0
-Se con d a r y A ir I nje ct io n S ys t e m Ma lfun ct ion
-P 041 1
-Se con d a r y A ir I nje ct io n S ys t e m Incorr e ct Flow De t e ct e d
-P 041 2
-Se con d a r y A ir I nje ct io n S ys t e m Sw it ching V a lve A C
-ir c uit
-Ma lfun ct io n
-P 041 3
-Se con d a r y A ir I nje ct io n S ys t e m Sw it ching V a lve A C ir c uit O p e n
-P 041 4
-Se con d a r y A ir I nje ct io n S ys t e m Sw it ching V a lve A C ir c uit
-Short e d
-P 041 5
-Se con d a r y A ir I nje ct io n S ys t e m Sw it ching V a lve B C ir c uit
-Ma lfun ct io n
-P 041 6
-Se con
-d a r y A ir I nje ct io n S ys t e m Sw it ching V a lve B C ir c uit O p e n
-P 041 7
-Se con d a r y A ir I nje ct io n S ys t e m Sw it ching V a lve B C ir c uit
-Short e d
-P 041 8
-Se con d a r y A ir I nje ct io n S ys t e m R e la y "A " C ir c uit Ma lf u nct io n
-P 041 9
-Se con d a r y A ir I nje ct io n S ys t e m R e la y "B " C ir c u
-it Ma lf u nct io n
-P 042 0
-C a t a lyst Syst e m E f ficie nc y B e low Thr e s hold ( B a nk 1)
-P 042 1
-W a r m Up C a t a lyst E f ficie nc y B e low T hr e sh old ( B a n k 1)
-P 042 2
-Ma in C a t a lyst E ffi cie n cy B e l ow Thr e s hold ( B a n k 1)
-P 042 3
-He a t e d C a t a lyst E fficie ncy B e low Thr e s hold ( B a nk 1
+gnitionCoilAPrimary/SecondaryCircuitMalfunction
+P0352
+IgnitionCoilBPrimary/SecondaryCircuitMalfunction
+P0353
+IgnitionCoilCPrimary/SecondaryCircuitMalfunction
+P0354
+IgnitionCoilDPrimary/SecondaryCircuitMalfunction
+P0355
+Ignit
+ionCoilEPrimary/SecondaryCircuitMalfunction
+P0356
+IgnitionCoilFPrimary/SecondaryCircuitMalfunction
+P0357
+IgnitionCoilGPrimary/SecondaryCircuitMalfunction
+P0358
+IgnitionCoilHPrimary/SecondaryCircuitMalfunction
+P0359
+Ignition
+CoilIPrimary/SecondaryCircuitMalfunction
+P0360
+IgnitionCoilJPrimary/SecondaryCircuitMalfunction
+P0361
+IgnitionCoilKPrimary/SecondaryCircuitMalfunction
+P0362
+IgnitionCoilLPrimary/SecondaryCircuitMalfunction
+P0370
+TimingRefere
+nceHighResolutionSignalAMalfunction
+P0371
+TimingReferenceHighResolutionSignalATooManyPulses
+P0372
+TimingReferenceHighResolutionSignalATooFewPulses
+P0373
+TimingReferenceHighResolutionSignalAIntermittent/Erratic
+Pulses
+P0374
+TimingReferenceHighResolutionSignalANoPulses
+P0375
+TimingReferenceHighResolutionSignalBMalfunction
+P0376
+TimingReferenceHighResolutionSignalBTooManyPulses
+P0377
+TimingReferenceHighResolutionSignalBTooFewPulses
+P0378
+TimingReferenceHighResolutionSignalBIntermittent/Erratic
+Pulses
+P0379
+TimingReferenceHighResolutionSignalBNoPulses
+P0380
+GlowPlug/HeaterCircuit"A"Malfunction
+P0381
+GlowPlug/HeaterIndicatorCircuitMalfunction
+P0382
+Exh
+austGasRecirculationFlowMalfunction
+P0385
+CrankshaftPositionSensorBCircuitMalfunction
+P0386
+CrankshaftPositionSensorBCircuitRange/Performance
+P0387
+CrankshaftPositionSensorBCircuitLowInput
+P0388
+CrankshaftPositionSensorB
+CircuitHighInput
+P0389
+CrankshaftPositionSensorBCircuitIntermittent
+P0400
+ExhaustGasRecirculationFlowMalfunction
+P0401
+ExhaustGasRecirculationFlowInsufficientDetected
+P0402
+ExhaustGasRecirculationFlowExcessiveDetected
+P0
+403
+ExhaustGasRecirculationCircuitMalfunction
+P0404
+ExhaustGasRecirculationCircuitRange/Performance
+P0405
+ExhaustGasRecirculationSensorACircuitLow
+P0406
+ExhaustGasRecirculationSensorACircuitHigh
+P0407
+ExhaustGasRecirculati
+onSensorBCircuitLow
+P0408
+ExhaustGasRecirculationSensorBCircuitHigh
+P0410
+SecondaryAirInjectionSystemMalfunction
+P0411
+SecondaryAirInjectionSystemIncorrectFlowDetected
+P0412
+SecondaryAirInjectionSystemSwitchingValveAC
+ircuit
+Malfunction
+P0413
+SecondaryAirInjectionSystemSwitchingValveACircuitOpen
+P0414
+SecondaryAirInjectionSystemSwitchingValveACircuit
+Shorted
+P0415
+SecondaryAirInjectionSystemSwitchingValveBCircuit
+Malfunction
+P0416
+Secon
+daryAirInjectionSystemSwitchingValveBCircuitOpen
+P0417
+SecondaryAirInjectionSystemSwitchingValveBCircuit
+Shorted
+P0418
+SecondaryAirInjectionSystemRelay"A"CircuitMalfunction
+P0419
+SecondaryAirInjectionSystemRelay"B"Circu
+itMalfunction
+P0420
+CatalystSystemEfficiencyBelowThreshold(Bank1)
+P0421
+WarmUpCatalystEfficiencyBelowThreshold(Bank1)
+P0422
+MainCatalystEfficiencyBelowThreshold(Bank1)
+P0423
+HeatedCatalystEfficiencyBelowThreshold(Bank1
 )
-P 042 4
-He a t e d C a t a lyst Te m p e r a t ur e B e low Thr e s hold ( B a n k 1 )
-P 042 6
-C a t a lyst Te m p e r a t ur e Se n s or R a ng e / P e r form a nce ( B a nk 1)
-P 042 7
-C a t a lyst Te m p e r a t ur e Se n s or Low I np ut ( B a n k 1)
-P 042 8
-C a t a lyst Te m p e r a t ur e Se n s or High I np ut ( B a n k 1)
-P 043 0
-C a t a ly
-st Syst e m E f ficie nc y B e low Thr e s hold ( B a nk 2)
-P 043 1
-W a r m Up C a t a lyst E f ficie nc y B e low T hr e sh old ( B a n k 2)
-P 043 2
-Ma in C a t a lyst E ffi cie n cy B e l ow Thr e s hold ( B a n k 2)
-P 043 3
-He a t e d C a t a lyst E fficie ncy B e low Thr e s hold ( B a nk 2)
-P 043 4
-He a t e d C a t a lyst Te m
-p e r a t ur e B e low Thr e s hold ( B a n k 2 )
-P 043 6
-C a t a lyst Te m p e r a t ur e Se n s or R a ng e / P e r form a nce ( B a nk 2)
-P 043 7
-C a t a lyst Te m p e r a t ur e Se n s or Low I np ut ( B a n k 2)
-P 043 8
-C a t a lyst Te m p e r a t ur e Se n s or High I np ut ( B a n k 2)
-P 044 0
-E va p ora t ive E m ission C ont r ol Syst e m
-Ma l fu nct io n
-P 044 1
-E va p ora t ive E m ission C ont r ol Syst e m I nc orr e ct P ur g e F low
-P 044 2
-E va p ora t ive E m ission C ont r ol Syst e m Le a k De t e ct e d ( s m a ll
-le a k)
-P 044 3
-E va p ora t ive E m ission C ont r ol Syst e m P ur g e C ont r ol V a lve
-C ir cuit Ma l fun ct io n
-P 044 4
-E va p ora t ive
-E m ission C ont r ol Syst e m P ur g e C ont r ol V a lve
-C ir cuit O p e n
-P 044 5
-E va p ora t ive E m ission C ont r ol Syst e m P ur g e C ont r ol V a lve
-C ir cuit S hort e d
-P 044 6
-E va p ora t ive E m ission C ont r ol Syst e m V e nt C ont r ol C ir c uit
-Ma lfun ct io n
-P 044 7
-E va p ora t ive E m ission C ont r ol Sy
-st e m V e nt C ont r ol C ir c uit O p e n
-P 044 8
-E va p ora t ive E m ission C ont r ol Syst e m V e nt C ont r ol C ir c uit
-Short e d
-P 044 9
-E va p ora t ive E m ission C ont r ol Syst e m V e nt V a lve / S ole n oid
-C ir cuit Ma l fun ct io n
-P 045 0
-E va p ora t ive E m ission C ont r ol Syst e m P r e ss ur e Se nsor
-Ma lfu
-n ct io n
-P 045 1
-E va p ora t ive E m ission C ont r ol Syst e m P r e ss ur e Se nsor
-R a ng e / P e r form a nce
-P 045 2
-E va p ora t ive E m ission C ont r ol Syst e m P r e ss ur e Se nsor Low
-Inp ut
-P 045 3
-E va p ora t ive E m ission C ont r ol Syst e m P r e ss ur e Se nsor High
-Inp ut
-P 045 4
-E va p ora t ive E m issi
-on C ont r ol Syst e m P r e ss ur e Se nsor
-Int e r m it t e nt
-P 045 5
-E va p ora t ive E m ission C ont r ol Syst e m Le a k De t e ct e d ( g r oss
-le a k)
-P 046 0
-Fue l Le ve l Se n sor C ir cuit M a lfun ct ion
-P 046 1
-Fue l Le ve l Se n sor C ir cuit R a ng e / P e r form a n ce
-P 046 2
-Fue l Le ve l Se n sor C ir cuit L o
-w Inp ut
-P 046 3
-Fue l Le ve l Se n sor C ir cuit Hi g h Inp ut
-P 046 4
-Fue l Le ve l Se n sor C ir cuit I n t e r m it t e nt
-P 046 5
-P ur g e Flow Se nsor C ir cuit Ma lfun ct io n
-P 046 6
-P ur g e Flow Se nsor C ir cuit R a ng e / P e r form a nce
-P 046 7
-P ur g e Flow Se nsor C ir cuit L ow Inp ut
-P 046 8
-P ur g e Flow Se nsor C ir cuit H ig h Inp ut
-P 046 9
-P ur g e Flow Se nsor C ir cuit I nt e r m it t e nt
-P 047 0
-E xha ust P r e ss ur e Se ns or M a lfun ct ion
-P 047 1
-E xha ust P r e ss ur e Se ns or R a ng e / P e r form a nce
-P 047 2
-E xha ust P r e ss ur e Se ns or Lo w
-P 047 3
-E xha ust P r e ss ur e Se ns or Hi g h
-P 047 4
-E xha ust P r e ss ur e Se ns or In t e r m it t e nt
-P 047 5
-E xha ust P r e ss ur e C ont r ol V a lve Ma lfu nct io n
-P 047 6
-E xha ust P r e ss ur e C ont r ol V a lve R a ng e / P e r form a nce
-P 047 7
-E xha ust P r e ss ur e C ont r ol V a lve Low
-P 047 8
-E xha ust P r e ss ur e C ont r ol V a lve High
-P 047 9
-E x
-ha ust P r e ss ur e C ont r ol V a lve Int e r m it t e nt
-P 048 0
-C ooling Fa n 1 C ont r ol C ir c ui t Ma lfun ct ion
-P 048 1
-C ooling Fa n 2 C ont r ol C ir c ui t Ma lfun ct ion
-P 048 2
-C ooling Fa n 3 C ont r ol C ir c ui t Ma lfun ct ion
-P 048 3
-C ooling Fa n R a t iona lit y C he ck Ma l fun ct io n
-P 048 4
+P0424
+HeatedCatalystTemperatureBelowThreshold(Bank1)
+P0426
+CatalystTemperatureSensorRange/Performance(Bank1)
+P0427
+CatalystTemperatureSensorLowInput(Bank1)
+P0428
+CatalystTemperatureSensorHighInput(Bank1)
+P0430
+Cataly
+stSystemEfficiencyBelowThreshold(Bank2)
+P0431
+WarmUpCatalystEfficiencyBelowThreshold(Bank2)
+P0432
+MainCatalystEfficiencyBelowThreshold(Bank2)
+P0433
+HeatedCatalystEfficiencyBelowThreshold(Bank2)
+P0434
+HeatedCatalystTem
+peratureBelowThreshold(Bank2)
+P0436
+CatalystTemperatureSensorRange/Performance(Bank2)
+P0437
+CatalystTemperatureSensorLowInput(Bank2)
+P0438
+CatalystTemperatureSensorHighInput(Bank2)
+P0440
+EvaporativeEmissionControlSystem
+Malfunction
+P0441
+EvaporativeEmissionControlSystemIncorrectPurgeFlow
+P0442
+EvaporativeEmissionControlSystemLeakDetected(small
+leak)
+P0443
+EvaporativeEmissionControlSystemPurgeControlValve
+CircuitMalfunction
+P0444
+Evaporative
+EmissionControlSystemPurgeControlValve
+CircuitOpen
+P0445
+EvaporativeEmissionControlSystemPurgeControlValve
+CircuitShorted
+P0446
+EvaporativeEmissionControlSystemVentControlCircuit
+Malfunction
+P0447
+EvaporativeEmissionControlSy
+stemVentControlCircuitOpen
+P0448
+EvaporativeEmissionControlSystemVentControlCircuit
+Shorted
+P0449
+EvaporativeEmissionControlSystemVentValve/Solenoid
+CircuitMalfunction
+P0450
+EvaporativeEmissionControlSystemPressureSensor
+Malfu
+nction
+P0451
+EvaporativeEmissionControlSystemPressureSensor
+Range/Performance
+P0452
+EvaporativeEmissionControlSystemPressureSensorLow
+Input
+P0453
+EvaporativeEmissionControlSystemPressureSensorHigh
+Input
+P0454
+EvaporativeEmissi
+onControlSystemPressureSensor
+Intermittent
+P0455
+EvaporativeEmissionControlSystemLeakDetected(gross
+leak)
+P0460
+FuelLevelSensorCircuitMalfunction
+P0461
+FuelLevelSensorCircuitRange/Performance
+P0462
+FuelLevelSensorCircuitLo
+wInput
+P0463
+FuelLevelSensorCircuitHighInput
+P0464
+FuelLevelSensorCircuitIntermittent
+P0465
+PurgeFlowSensorCircuitMalfunction
+P0466
+PurgeFlowSensorCircuitRange/Performance
+P0467
+PurgeFlowSensorCircuitLowInput
+P0468
+PurgeFlowSensorCircuitHighInput
+P0469
+PurgeFlowSensorCircuitIntermittent
+P0470
+ExhaustPressureSensorMalfunction
+P0471
+ExhaustPressureSensorRange/Performance
+P0472
+ExhaustPressureSensorLow
+P0473
+ExhaustPressureSensorHigh
+P0474
+ExhaustPressureSensorIntermittent
+P0475
+ExhaustPressureControlValveMalfunction
+P0476
+ExhaustPressureControlValveRange/Performance
+P0477
+ExhaustPressureControlValveLow
+P0478
+ExhaustPressureControlValveHigh
+P0479
+Ex
+haustPressureControlValveIntermittent
+P0480
+CoolingFan1ControlCircuitMalfunction
+P0481
+CoolingFan2ControlCircuitMalfunction
+P0482
+CoolingFan3ControlCircuitMalfunction
+P0483
+CoolingFanRationalityCheckMalfunction
+P0484
 C
-ooling Fa n C ir cuit O ve r C u r r e nt
-P 048 5
-C ooling Fa n P ow e r / Gr ou nd C ir cuit Ma l fun ct io n
-P 050 0
-V e hicle Sp e e d Se nsor Ma l fu nct io n
-P 050 1
-V e hicle Sp e e d Se nsor R a ng e / P e r form a nce
-P 050 2
-V e hicle Sp e e d Se nsor Low I np ut
-P 050 3
-V e hicle Sp e e d Se nsor I nt e r m it t e
-nt / E r r a t ic/ High
-P 050 5
-Id le C ont r ol Syst e m Ma l fu n ct ion
-P 050 6
-Id le C ont r ol Syst e m R P M L ow e r Tha n E x p e ct e d
-P 050 7
-Id le C ont r ol Syst e m R P M Hi g he r T ha n E xp e ct e d
-P 051 0
-C lose d T hr ot t le P osit io n Sw i t ch Ma lf un ct ion
-P 052 0
-E ng ine O il P r e ss ur e Se ns or/ Sw i
-t ch C ir cuit Ma l fu nct io n
-P 052 1
-E ng ine O il P r e ss ur e Se ns or/ Sw it ch C ir cuit R a ng e / P e r f or m a nce
-P 052 2
-E ng ine O il P r e ss ur e Se ns or/ Sw it ch C ir cuit Low V olt a g e
-P 052 3
-E ng ine O il P r e ss ur e Se ns or/ Sw it ch C ir cuit H ig h V olt a g e
-P 053 0
-A / C R e fr ig e r a nt P r e ssur e S e
-nsor C ir c uit Ma lf un ct ion
-P 053 1
-A / C R e fr ig e r a nt P r e ssur e S e nsor C ir c uit R a ng e / P e r for m a nce
-P 053 2
-A / C R e fr ig e r a nt P r e ssur e S e nsor C ir c uit L ow Inp ut
-P 053 3
-A / C R e fr ig e r a nt P r e ssur e S e nsor C ir c uit Hig h Inp ut
-P 053 4
-A ir C ond it io ne r R e fr ig e r a nt C ha r g e L
+oolingFanCircuitOverCurrent
+P0485
+CoolingFanPower/GroundCircuitMalfunction
+P0500
+VehicleSpeedSensorMalfunction
+P0501
+VehicleSpeedSensorRange/Performance
+P0502
+VehicleSpeedSensorLowInput
+P0503
+VehicleSpeedSensorIntermitte
+nt/Erratic/High
+P0505
+IdleControlSystemMalfunction
+P0506
+IdleControlSystemRPMLowerThanExpected
+P0507
+IdleControlSystemRPMHigherThanExpected
+P0510
+ClosedThrottlePositionSwitchMalfunction
+P0520
+EngineOilPressureSensor/Swi
+tchCircuitMalfunction
+P0521
+EngineOilPressureSensor/SwitchCircuitRange/Performance
+P0522
+EngineOilPressureSensor/SwitchCircuitLowVoltage
+P0523
+EngineOilPressureSensor/SwitchCircuitHighVoltage
+P0530
+A/CRefrigerantPressureSe
+nsorCircuitMalfunction
+P0531
+A/CRefrigerantPressureSensorCircuitRange/Performance
+P0532
+A/CRefrigerantPressureSensorCircuitLowInput
+P0533
+A/CRefrigerantPressureSensorCircuitHighInput
+P0534
+AirConditionerRefrigerantChargeL
 oss
-P 055 0
-P ow e r St e e r ing P r e ssur e Se nsor C ir cuit Ma l fun ct io n
-P 055 1
-P ow e r St e e r ing P r e ssur e Se nsor C ir cuit R a ng e / P e r form a nce
-P 055 2
-P ow e r St e e r ing P r e ssur e Se nsor C ir cuit L ow Inp ut
-P 055 3
-P ow e r St e e r ing P r e ssur e Se nsor C ir cuit Hig h In p ut
-P 055 4
-P ow e r St e e r ing P r e ssur e Se nsor C ir cuit I nt e r m it t e nt
-P 056 0
-Syst e m V olt a g e Ma lf unct i on
-P 056 1
-Syst e m V olt a g e U nst a b le
-P 056 2
-Syst e m V olt a g e Low
-P 056 2
-A / C p r e ssur e se ns or low v ol t a g e ( C hr ysle r )
-P 056 3
-Syst e m V olt a g e High
-P 056 5
-C r uise C ont r ol O n
-Sig na l M a lfun ct ion
-P 056 6
-C r uise C ont r ol O f f Sig na l M a lfun ct ion
-P 056 7
-C r uise C ont r ol R e sum e Sig n a l Ma lfun ct ion
-P 056 8
-C r uise C ont r ol Se t Sig na l M a lfun ct ion
-P 056 9
-C r uise C ont r ol C oa st Sig na l Ma lfun ct io n
-P 057 0
-C r uise C ont r ol A c ce l Sig na l Ma lfun c
-t io n
-P 057 1
-C r uise C ont r ol/ B r a ke Sw it ch A C ir cuit Ma l fu nct io n
-P 057 2
-C r uise C ont r ol/ B r a ke Sw it ch A C ir cuit Low
-P 057 3
-C r uise C ont r ol/ B r a ke Sw it ch A C ir cuit Hig h
-P 057 4
-C r uise C ont r ol R e la t e d Ma lfunct i on
-P 057 5
-C r uise C ont r ol R e la t e d Ma lfunct i on
-P 057 6
-C r uise C ont r ol R e la t e d Ma lfunct i on
-P 057 6
-C r uise C ont r ol R e la t e d Ma lfunct i on
-P 057 8
-C r uise C ont r ol R e la t e d Ma lfunct i on
-P 057 9
-C r uise C ont r ol R e la t e d Ma lfunct i on
-P 058 0
-C r uise C ont r ol R e la t e d Ma lfunct i on
-P 060 0
-Se r ia l C om m uni ca t ion Lin k Ma
-lfun ct io n
-P 060 1
-C ont r ol Mo d ule R e a d O nly Me m ory( R O M)
-P 060 2
-C ont r ol Mo d ule P r ogr a m m i ng E r r or
-P 060 3
-Int e r na l C ont r ol Mod ule K e e p A live Me m ory ( K A M) E r r or
-P 060 4
-Int e r na l C ont r ol Mod ule R a nd om A c ce ss Me m or y ( R A M) E r r or
-P 060 5
-Int e r na l C ont r ol Mod
-ule R e a d O nly Me m or y ( R O M) E r r or
-P 060 6
-P C M P r oce ssor Fa ult
-P 060 8
-C ont r ol Mo d ule V S S O ut p ut "A " Ma lf un ct io n
-P 060 9
-C ont r ol Mo d ule V S S O ut p ut "B " Ma l fu nct io n
-P 062 0
-Ge ne r a t or C o nt r ol C ir c uit M a lfun ct ion
-P 062 1
-Ge ne r a t or La m p "L" C ont r o l C ir cuit M
-a l fu nct io n
-P 062 2
-Ge ne r a t or Fie ld "F " C o nt r ol C ir cuit Ma l fun ct io n
-P 065 0
-Ma lfun ct io n Ind i ca t or La m p ( MIL) C ont r ol C ir c uit Ma lf u nct io n
-P 065 4
-E ng ine R P M O ut p ut C ir cu it Ma lfun ct io n
-P 065 5
-E ng ine Hot La m p O ut p ut C ont r ol C ir cuit Ma l fuc nt io n
-P 065 6
+P0550
+PowerSteeringPressureSensorCircuitMalfunction
+P0551
+PowerSteeringPressureSensorCircuitRange/Performance
+P0552
+PowerSteeringPressureSensorCircuitLowInput
+P0553
+PowerSteeringPressureSensorCircuitHighInput
+P0554
+PowerSteeringPressureSensorCircuitIntermittent
+P0560
+SystemVoltageMalfunction
+P0561
+SystemVoltageUnstable
+P0562
+SystemVoltageLow
+P0562
+A/Cpressuresensorlowvoltage(Chrysler)
+P0563
+SystemVoltageHigh
+P0565
+CruiseControlOn
+SignalMalfunction
+P0566
+CruiseControlOffSignalMalfunction
+P0567
+CruiseControlResumeSignalMalfunction
+P0568
+CruiseControlSetSignalMalfunction
+P0569
+CruiseControlCoastSignalMalfunction
+P0570
+CruiseControlAccelSignalMalfunc
+tion
+P0571
+CruiseControl/BrakeSwitchACircuitMalfunction
+P0572
+CruiseControl/BrakeSwitchACircuitLow
+P0573
+CruiseControl/BrakeSwitchACircuitHigh
+P0574
+CruiseControlRelatedMalfunction
+P0575
+CruiseControlRelatedMalfunction
+P0576
+CruiseControlRelatedMalfunction
+P0576
+CruiseControlRelatedMalfunction
+P0578
+CruiseControlRelatedMalfunction
+P0579
+CruiseControlRelatedMalfunction
+P0580
+CruiseControlRelatedMalfunction
+P0600
+SerialCommunicationLinkMa
+lfunction
+P0601
+ControlModuleReadOnlyMemory(ROM)
+P0602
+ControlModuleProgrammingError
+P0603
+InternalControlModuleKeepAliveMemory(KAM)Error
+P0604
+InternalControlModuleRandomAccessMemory(RAM)Error
+P0605
+InternalControlMod
+uleReadOnlyMemory(ROM)Error
+P0606
+PCMProcessorFault
+P0608
+ControlModuleVSSOutput"A"Malfunction
+P0609
+ControlModuleVSSOutput"B"Malfunction
+P0620
+GeneratorControlCircuitMalfunction
+P0621
+GeneratorLamp"L"ControlCircuitM
+alfunction
+P0622
+GeneratorField"F"ControlCircuitMalfunction
+P0650
+MalfunctionIndicatorLamp(MIL)ControlCircuitMalfunction
+P0654
+EngineRPMOutputCircuitMalfunction
+P0655
+EngineHotLampOutputControlCircuitMalfucntion
+P0656
 Fu
-e l Le ve l O ut p ut C ir c uit M a lfun ct ion
-P 070 0
-Tr a nsm is sion C ont r ol Syst e m Ma lfu nct io n
-P 070 1
-Tr a nsm is sion C ont r ol Syst e m R a ng e / P e r form a nce
-P 070 2
-Tr a nsm is sion C ont r ol Syst e m E le ct r ica l
-P 070 3
-Torq ue C on ve r t e r / B r a ke Sw it ch B C ir cuit Ma l fu nct io n
-P 070
+elLevelOutputCircuitMalfunction
+P0700
+TransmissionControlSystemMalfunction
+P0701
+TransmissionControlSystemRange/Performance
+P0702
+TransmissionControlSystemElectrical
+P0703
+TorqueConverter/BrakeSwitchBCircuitMalfunction
+P070
 4
-C lut ch Sw it c h Inp ut C ir c uit Ma lfun ct io n
-P 070 5
-Tr a nsm is sion R a ng e Se nso r C ir cuit m a lf un ct ion ( P R ND L Inp ut )
-P 070 6
-Tr a nsm is sion R a ng e Se nso r C ir cuit R a ng e / P e r form a nce
-P 070 7
-Tr a nsm is sion R a ng e Se nso r C ir cuit Low Inp ut
-P 070 8
-Tr a nsm is sion R a ng e Se n
-so r C ir cuit Hig h I np ut
-P 070 9
-Tr a nsm is sion R a ng e Se nso r C ir cuit I nt e r m it t e nt
-P 071 0
-Tr a nsm is sion Fluid Te m p e r a t ur e Se nsor C ir cuit Ma lfu n ct ion
-P 071 1
-Tr a nsm is sion Fluid Te m p e r a t ur e Se nsor C ir cuit
-R a ng e / P e r form a nce
-P 071 2
-Tr a nsm is sion Fluid Te m p e r a t u
-r e Se nsor C ir cuit Low I n p ut
-P 071 3
-Tr a nsm is sion Fluid Te m p e r a t ur e Se nsor C ir cuit High I n p ut
-P 071 4
-Tr a nsm is sion Fluid Te m p e r a t ur e Se nsor C ir cuit I nt e r m i t t e nt
-P 071 5
-Inp ut / Tur b i ne Sp e e d Se nso r C ir cuit Ma l fu nct io n
-P 071 6
-Inp ut / Tur b i ne Sp e e d Se nso r C i
-r cuit R a ng e / P e r form a nc e
-P 071 7
-Inp ut / Tur b i ne Sp e e d Se nso r C ir cuit No Si g na l
-P 071 8
-Inp ut / Tur b i ne Sp e e d Se nso r C ir cuit I nt e r m it t e nt
-P 071 9
-Torq ue C on ve r t e r / B r a ke Sw it ch B C ir cuit Low
-P 072 0
-O ut p ut Sp e e d Se nsor C i r cui t Ma lfun ct ion
-P 072 1
-O ut p ut Sp e
-e d Se nsor R a ng e / P e r form a nce
-P 072 2
-O ut p ut Sp e e d Se nsor No Si g na l
-P 072 3
-O ut p ut Sp e e d Se nsor I nt e r m it t e nt
-P 072 4
-Torq ue C on ve r t e r / B r a ke Sw it ch B C ir cuit Hig h
-P 072 5
-E ng ine Sp e e d i np ut C ir cuit Ma lfun ct io n
-P 072 6
-E ng ine Sp e e d I np ut C ir cuit R a ng e / P e r
-form a nce
-P 072 7
-E ng ine Sp e e d I np ut C ir cuit No Sig na l
-P 072 8
-E ng ine Sp e e d I np ut C ir cuit Int e r m it t e nt
-P 073 0
-Incorr e ct Ge a r R a t io
-P 073 1
-Ge a r 1 In corr e ct r a t io
-P 073 2
-Ge a r 2 In corr e ct r a t io
-P 073 3
-Ge a r 3 In corr e ct r a t io
-P 073 4
-Ge a r 4 In corr e ct
-r a t io
-P 073 5
-Ge a r 5 In corr e ct r a t io
-P 073 6
-R e ve r se incorr e ct g e a r r a t io
-P 074 0
-Torq ue C on ve r t e r C lut c h C i r cuit Ma lf uct i on
-P 074 1
-Torq ue C on ve r t e r C lut c h C i r cuit P e r f orm a nce or St u ck O ff
-P 074 2
-Torq ue C on ve r t e r C lut c h C i r cuit St uc k O n
-P 074 3
+ClutchSwitchInputCircuitMalfunction
+P0705
+TransmissionRangeSensorCircuitmalfunction(PRNDLInput)
+P0706
+TransmissionRangeSensorCircuitRange/Performance
+P0707
+TransmissionRangeSensorCircuitLowInput
+P0708
+TransmissionRangeSen
+sorCircuitHighInput
+P0709
+TransmissionRangeSensorCircuitIntermittent
+P0710
+TransmissionFluidTemperatureSensorCircuitMalfunction
+P0711
+TransmissionFluidTemperatureSensorCircuit
+Range/Performance
+P0712
+TransmissionFluidTemperatu
+reSensorCircuitLowInput
+P0713
+TransmissionFluidTemperatureSensorCircuitHighInput
+P0714
+TransmissionFluidTemperatureSensorCircuitIntermittent
+P0715
+Input/TurbineSpeedSensorCircuitMalfunction
+P0716
+Input/TurbineSpeedSensorCi
+rcuitRange/Performance
+P0717
+Input/TurbineSpeedSensorCircuitNoSignal
+P0718
+Input/TurbineSpeedSensorCircuitIntermittent
+P0719
+TorqueConverter/BrakeSwitchBCircuitLow
+P0720
+OutputSpeedSensorCircuitMalfunction
+P0721
+OutputSpe
+edSensorRange/Performance
+P0722
+OutputSpeedSensorNoSignal
+P0723
+OutputSpeedSensorIntermittent
+P0724
+TorqueConverter/BrakeSwitchBCircuitHigh
+P0725
+EngineSpeedinputCircuitMalfunction
+P0726
+EngineSpeedInputCircuitRange/Per
+formance
+P0727
+EngineSpeedInputCircuitNoSignal
+P0728
+EngineSpeedInputCircuitIntermittent
+P0730
+IncorrectGearRatio
+P0731
+Gear1Incorrectratio
+P0732
+Gear2Incorrectratio
+P0733
+Gear3Incorrectratio
+P0734
+Gear4Incorrect
+ratio
+P0735
+Gear5Incorrectratio
+P0736
+Reverseincorrectgearratio
+P0740
+TorqueConverterClutchCircuitMalfuction
+P0741
+TorqueConverterClutchCircuitPerformanceorStuckOff
+P0742
+TorqueConverterClutchCircuitStuckOn
+P0743
 Tor
-q ue C on ve r t e r C lut c h C i r cuit E le ct r ica l
-P 074 4
-Torq ue C on ve r t e r C lut c h C i r cuit Int e r m it t e nt
-P 074 5
-P r e ssur e C ont r ol Sole noid Ma lfun ct io n
-P 074 6
-P r e ssur e C ont r ol Sole noid P e r form a nce or St u ck O ff
-P 074 7
-P r e ssur e C ont r ol Sole noid S t uck O n
-P 074 8
-P r
-e ssur e C ont r ol Sole noid E le ct r ica l
-P 074 9
-P r e ssur e C ont r ol Sole noid I nt e r m it t e nt
-P 075 0
-Shift Sole n oid A Ma lf un ct io n
-P 075 1
-Shift Sole n oid A P e r f orm a n ce or St u ck O f f/ 1
+queConverterClutchCircuitElectrical
+P0744
+TorqueConverterClutchCircuitIntermittent
+P0745
+PressureControlSolenoidMalfunction
+P0746
+PressureControlSolenoidPerformanceorStuckOff
+P0747
+PressureControlSolenoidStuckOn
+P0748
+Pr
+essureControlSolenoidElectrical
+P0749
+PressureControlSolenoidIntermittent
+P0750
+ShiftSolenoidAMalfunction
+P0751
+ShiftSolenoidAPerformanceorStuckOff/1
 -
-2 S hift So le noid
-V a lve P e r form a nce
-P 075 2
-Shift Sole n oid A St uc k O n
-P 075 3
+2ShiftSolenoid
+ValvePerformance
+P0752
+ShiftSolenoidAStuckOn
+P0753
 Shi
-ft Sole n oid A E le ct r ica l/ 1
+ftSolenoidAElectrical/1
 -
-2 S hift Sole n oid C ir c uit E le ct r ica l
-P 075 4
-Shift Sole n oid A Int e r m it t e n t
-P 075 5
-Shift Sole n oid B Ma l fu nct io n
-P 075 6
-Shift Sole n oid B P e r f orm a n ce or St u ck O f f/ 2
+2ShiftSolenoidCircuitElectrical
+P0754
+ShiftSolenoidAIntermittent
+P0755
+ShiftSolenoidBMalfunction
+P0756
+ShiftSolenoidBPerformanceorStuckOff/2
 -
-3 S hift So le noid
-V a lve P e r form a nce
-P 075 7
-Shift Sole n oid B St
-uc k O n
-P 075 8
-Shift Sole n oid B E le ct r i ca l/ 2
+3ShiftSolenoid
+ValvePerformance
+P0757
+ShiftSolenoidBSt
+uckOn
+P0758
+ShiftSolenoidBElectrical/2
 -
-3 S hift Sole n oid C ir c uit E le ct r ica l
-P 075 9
-Shift Sole n oid B I nt e r m it t e nt
-P 076 0
-Shift Sole n oid C Ma lf un ct io n
-P 076 1
-Shift Sole n oid C P e r f orm a n ce or St u ck O f f
-P 076 2
-Shift Sole n oid C St uc k O n
-P 076 3
+3ShiftSolenoidCircuitElectrical
+P0759
+ShiftSolenoidBIntermittent
+P0760
+ShiftSolenoidCMalfunction
+P0761
+ShiftSolenoidCPerformanceorStuckOff
+P0762
+ShiftSolenoidCStuckOn
+P0763
 Sh
-ift Sole n oid C E le ct r ica l
-P 076 4
-Shift Sole n oid C I nt e r m it t e nt
-P 076 5
-Shift Sole n oid D Ma lfu nct i o n
-P 076 6
-Shift Sole n oid D P e r form a n ce or St u ck O f f
-P 076 7
-Shift Sole n oid D St u ck O n
-P 076 8
-Shift Sole n oid D E le ct r ica l
-P 076 9
-Shift Sole n oid D Int e
-r m it t e nt
-P 077 0
-Shift Sole n oid E Ma lf un ct io n
-P 077 1
-Shift Sole n oid E P e r form a nc e or St uc k O ff
-P 077 2
-Shift Sole n oid E St u ck O n
-P 077 3
-Shift Sole n oid E E le ct r ica l
-P 077 4
-Shift Sole n oid E Int e r m it t e n t
-P 077 5
-P r e ssur e C ont r ol Sole noid B Ma lfu nct io
+iftSolenoidCElectrical
+P0764
+ShiftSolenoidCIntermittent
+P0765
+ShiftSolenoidDMalfunction
+P0766
+ShiftSolenoidDPerformanceorStuckOff
+P0767
+ShiftSolenoidDStuckOn
+P0768
+ShiftSolenoidDElectrical
+P0769
+ShiftSolenoidDInte
+rmittent
+P0770
+ShiftSolenoidEMalfunction
+P0771
+ShiftSolenoidEPerformanceorStuckOff
+P0772
+ShiftSolenoidEStuckOn
+P0773
+ShiftSolenoidEElectrical
+P0774
+ShiftSolenoidEIntermittent
+P0775
+PressureControlSolenoidBMalfunctio
 n
-P 077 6
-P r e ssur e C ont r ol Sole noid B P e r form a nce
-P 077 7
-P r e ssur e C ont r ol Sole noid B St uc k O n
-P 077 8
-P r e ssur e C ont r ol Sole noid B E le ct r ica l
-P 077 9
-P r e ssur e C ont r ol Sole noid B Int e r m it t e nt
-P 078 0
-Shift Ma lfu nct i on
-P 078 1
+P0776
+PressureControlSolenoidBPerformance
+P0777
+PressureControlSolenoidBStuckOn
+P0778
+PressureControlSolenoidBElectrical
+P0779
+PressureControlSolenoidBIntermittent
+P0780
+ShiftMalfunction
+P0781
 1
 -
-2 Shi ft Ma lf un ct ion
-P 078 2
+2ShiftMalfunction
+P0782
 2
 -
-3 Shi ft Ma lf un ct ion
-P 078 3
+3ShiftMalfunction
+P0783
 3
 -
-4 Shi ft Ma lf un ct ion
-P 078 4
+4ShiftMalfunction
+P0784
 4
 -
-5 Shi ft Ma lf un ct ion
-P 078 5
-Shift / Tim in g Sole noid Ma l fu nct io n/ 3
+5ShiftMalfunction
+P0785
+Shift/TimingSolenoidMalfunction/3
 -
-2 S hift Sole no id C ir cuit
-E le ct r ica l
-P 078 6
-Shift / Tim in g Sole noid R a ng e / P e r form a nce
-P 078 7
-Shift / Tim in g Sole noid L ow
-P 078 8
-Shift / Tim in g Sole noid Hig h
-P 078 9
-Shift / Tim in g Sole noid I nt e r m it t e nt
-P 079 0
-Norm a l/ P e r form a n ce Sw it c h C ir c uit Ma lf unct i on
-P 080 1
-R e ve r se Inhib it C ont r ol C ir c uit Ma lfu nct i on
-P 080 3
+2ShiftSolenoidCircuit
+Electrical
+P0786
+Shift/TimingSolenoidRange/Performance
+P0787
+Shift/TimingSolenoidLow
+P0788
+Shift/TimingSolenoidHigh
+P0789
+Shift/TimingSolenoidIntermittent
+P0790
+Normal/PerformanceSwitchCircuitMalfunction
+P0801
+ReverseInhibitControlCircuitMalfunction
+P0803
 1
 -
-4 Up s hift ( Skip Shi ft ) Sole noid C o nt r ol C ir c uit Ma lf un c t i
+4Upshift(SkipShift)SolenoidControlCircuitMalfuncti
 on
-P 080 4
+P0804
 1
 -
-4 Up s hift ( Skip Shi ft ) La m p C ont r ol C ir cuit Ma l fu nct io n
-P 110 0
-MA F Se n sor I nt e r m it t e nt / C he ck of a ll O B DII S yst e m s Not
-C om p le t e
-P 110 1
-MA F Se n sor O ut O f Se l f Te s t R a ng e ./ K O E R Not A b le To
-C om p le t e K O E R A b ort e d
-P 110 2
-MA F Se n sor I n R a ng e
-B ut L ow e r Tha n E x p e ct e d
-P 110 3
-MA F Se n sor I n R a ng e B ut Highe r T ha n E xp e ct e d
-P 110 4
-MA F Gr ou nd Ma lf un ct ion
-P 110 5
-Dua l A lt e r na t or Up p e r Fa ult
-P 110 6
-Dua l A lt e r na t or Low e r Fa ult / Ma nifold A b solut e P r e ss ur e ( MA P )
-Se nsor C ir cuit I nt e r m it t e nt High V olt a
-g e
-P 110 7
-Dua l A lt e r na t or Low e r C ir c u it Ma lfun ct io n/ Ma nif old A b solut e
-P r e ssur e ( MA P ) Se n sor C ir c uit Int e r m it t e nt L ow V olt a g e
-P 110 8
-Dua l A lt e r na t or B a t t e r y La m p C ir cuit Ma l fu nct io n
-P 110 9
-IA T
+4Upshift(SkipShift)LampControlCircuitMalfunction
+P1100
+MAFSensorIntermittent/CheckofallOBDIISystemsNot
+Complete
+P1101
+MAFSensorOutOfSelfTestRange./KOERNotAbleTo
+CompleteKOERAborted
+P1102
+MAFSensorInRange
+ButLowerThanExpected
+P1103
+MAFSensorInRangeButHigherThanExpected
+P1104
+MAFGroundMalfunction
+P1105
+DualAlternatorUpperFault
+P1106
+DualAlternatorLowerFault/ManifoldAbsolutePressure(MAP)
+SensorCircuitIntermittentHighVolta
+ge
+P1107
+DualAlternatorLowerCircuitMalfunction/ManifoldAbsolute
+Pressure(MAP)SensorCircuitIntermittentLowVoltage
+P1108
+DualAlternatorBatteryLampCircuitMalfunction
+P1109
+IAT
 -
-B Se nso r Int e r m it t e nt
-P 111 0
-IA T Se nsor ( D/ C ) O p e n/ Sh
+BSensorIntermittent
+P1110
+IATSensor(D/C)Open/Sh
 ort
-P 111 1
-Int a ke A ir Te m p e r a t ur e ( IA T) Se n sor C ir c uit Int e r m it t e nt High
-V olt a g e
-P 111 2
-Int a ke A ir Te m p e r a t ur e ( IA T) Se n sor C ir c uit Int e r m it t e nt Low
-V olt a g e
-P 111 3
-IA T Se nsor O p e n/ Short
-P 111 4
-E ng ine C oola nt Te m p e r a t ur e ( E C T) Se nsor C ir c uit Int e r m i
-t t e nt
-Low V olt a g e / IA T
+P1111
+IntakeAirTemperature(IAT)SensorCircuitIntermittentHigh
+Voltage
+P1112
+IntakeAirTemperature(IAT)SensorCircuitIntermittentLow
+Voltage
+P1113
+IATSensorOpen/Short
+P1114
+EngineCoolantTemperature(ECT)SensorCircuitIntermi
+ttent
+LowVoltage/IAT
 -
-B C ir cuit Low Inp ut
-P 111 5
-E ng ine C oola nt Te m p e r a t ur e ( E C T) Se nsor C ir c uit Int e r m it t e nt
-High V olt a g e / IA T
+BCircuitLowInput
+P1115
+EngineCoolantTemperature(ECT)SensorCircuitIntermittent
+HighVoltage/IAT
 -
-B C ir c uit High I np ut
-P 111 6
-E ng ine C oola nt se nsor out of r a ng e / E C T Se ns or O ut O f Se lf
-Te st R a ng e
-P 111 7
-E ng ine C oola nt
-Se ns or int e r m it t e nt / E C T Se ns or Int e r m i t t e nt
-P 111 8
-Ma nifold A b solut e Te m p e r a t ur e C ir cuit Low In p ut
-P 111 9
-Ma nifold A b solut e Te m p e r a t ur e C ir cuit High I np ut
-P 112 0
-Thr ot t le p o sit ion se nsor out of r a ng e
-P 112 1
-Thr ot t le P o sit ion ( TP ) Se n s or C ir cuit I nt
-e r m it t e nt Hig h V olt a g e
-P 112 2
-Thr ot t le P o sit ion ( TP ) Se n s or C ir cuit I nt e r m it t e nt Low V olt a g e
-P 112 3
-Thr ot t le P o sit ion Se nsor In R a ng e B ut Highe r Tha n E xp e ct e d
-P 112 4
-Thr ot t le P o sit ion Se nsor O u t O f Se lf Te st R a ng e
-P 112 5
-Thr ot t le p o sit ion se nsor i n
-t e r m it t e nt
-P 112 6
-Thr ot t le P o sit ion ( Na r r ow R a ng e ) Se nsor C i r cuit Ma lfu n ct ion
-P 112 7
-E xha ust N ot W a r m , D ow nst r e a m O 2 Se nsor
-P 112 8
-Up st r e a m He a t e d O 2 Se n so r s Sw a p p e d
-P 112 9
-Dow nst r e a m He a t e d O 2 Se nsor s Sw a p p e d
-P 113 0
-La ck O f HO 2 S Sw it ch
+BCircuitHighInput
+P1116
+EngineCoolantsensoroutofrange/ECTSensorOutOfSelf
+TestRange
+P1117
+EngineCoolant
+Sensorintermittent/ECTSensorIntermittent
+P1118
+ManifoldAbsoluteTemperatureCircuitLowInput
+P1119
+ManifoldAbsoluteTemperatureCircuitHighInput
+P1120
+Throttlepositionsensoroutofrange
+P1121
+ThrottlePosition(TP)SensorCircuitInt
+ermittentHighVoltage
+P1122
+ThrottlePosition(TP)SensorCircuitIntermittentLowVoltage
+P1123
+ThrottlePositionSensorInRangeButHigherThanExpected
+P1124
+ThrottlePositionSensorOutOfSelfTestRange
+P1125
+Throttlepositionsensorin
+termittent
+P1126
+ThrottlePosition(NarrowRange)SensorCircuitMalfunction
+P1127
+ExhaustNotWarm,DownstreamO2Sensor
+P1128
+UpstreamHeatedO2SensorsSwapped
+P1129
+DownstreamHeatedO2SensorsSwapped
+P1130
+LackOfHO2SSwitch
 -
-A d a p t iv
-e Fue l A t Lim it
-P 113 1
-La ck O f HO 2 S Sw it ch
+Adaptiv
+eFuelAtLimit
+P1131
+LackOfHO2SSwitch
 -
-Se n sor Ind i ca t e s Le a n
-P 113 2
-La ck O f HO 2 S Sw it ch
+SensorIndicatesLean
+P1132
+LackOfHO2SSwitch
 -
-Se n sor Ind i ca t e s R ich
-P 113 3
-HO 2S I nsu f ficie nt Sw it chi ng Se nsor 1
-P 113 4
-HO 2S Tr a nsit i on Tim e R a t io Se nsor 1
-P 113 5
-P e d a l P osit ion Se nsor A C ir cuit In
-t e r m it t e nt
-P 113 6
-Fa n C ont r ol C ir c uit Ma lf un ct ion
-P 113 7
-La ck O f HO 2 S Sw it ch
+SensorIndicatesRich
+P1133
+HO2SInsufficientSwitchingSensor1
+P1134
+HO2STransitionTimeRatioSensor1
+P1135
+PedalPositionSensorACircuitIn
+termittent
+P1136
+FanControlCircuitMalfunction
+P1137
+LackOfHO2SSwitch
 -
-Se n sor Ind i ca t e s Le a n
-P 113 8
-La ck O f HO 2 S1 2 Sw it ch
+SensorIndicatesLean
+P1138
+LackOfHO2S12Switch
 -
-S e nsor Ind ica t e s R ich
-P 113 9
-W a t e r In Fue l I nd ica t or C ir c uit Ma lfu nct i on
-P 114 0
-W a t e r In Fue l C ond it io n
-P 114 1
+SensorIndicatesRich
+P1139
+WaterInFuelIndicatorCircuitMalfunction
+P1140
+WaterInFuelCondition
+P1141
 F
-ue l R e st r ict io n Ind i ca t or C i r cuit Ma lf un ct ion
-P 114 2
-Fue l R e st r ict io n C o nd it ion
-P 114 3
-A ir A ssist C ont r ol V a lve R a n g e / P e r form a nce
-P 114 4
-A ir A ssist C ont r ol V a lve C ir c uit Ma lfu nct i on
-P 115 0
-La ck O f HO 2 S2 1 Sw it ch
+uelRestrictionIndicatorCircuitMalfunction
+P1142
+FuelRestrictionCondition
+P1143
+AirAssistControlValveRange/Performance
+P1144
+AirAssistControlValveCircuitMalfunction
+P1150
+LackOfHO2S21Switch
 -
-A d a p t ive Fue l A t L im it
-P 115 1
-La c
-k O f HO 2 S2 1 Sw it ch
+AdaptiveFuelAtLimit
+P1151
+Lac
+kOfHO2S21Switch
 -
-S e nsor Ind ica t e s Le a n
-P 115 2
-La ck O f HO 2 S2 1 Sw it ch
+SensorIndicatesLean
+P1152
+LackOfHO2S21Switch
 -
-S e nsor Ind ica t e s R ich
-P 115 3
-B a nk 2 Fue l C ont r ol Shi ft e d Le a n
-P 115 4
-B a nk 2 Fue l C ont r ol Shi ft e d R ich
-P 115 5
-A lt e r na t ive Fue l C ont r olle r
-P 115 6
-Fue l Se le ct Sw it c h Ma lf un ct i
+SensorIndicatesRich
+P1153
+Bank2FuelControlShiftedLean
+P1154
+Bank2FuelControlShiftedRich
+P1155
+AlternativeFuelController
+P1156
+FuelSelectSwitchMalfuncti
 on
-P 115 7
-La ck O f HO 2 S2 2 Sw it ch
+P1157
+LackOfHO2S22Switch
 -
-S e nsor Ind ica t e s Le a n
-P 115 8
-La ck O f HO 2 S2 2 Sw it ch
+SensorIndicatesLean
+P1158
+LackOfHO2S22Switch
 -
-S e nsor Ind ica t e s R ich
-P 115 9
-Fue l St e p p e r M ot or Ma lf un c t ion
-P 116 7
-Inva lid Te st ,t hr ot t le not d e p r e sse d
-P 116 8
-Fue l R a il Se ns or In
+SensorIndicatesRich
+P1159
+FuelStepperMotorMalfunction
+P1167
+InvalidTest,throttlenotdepressed
+P1168
+FuelRailSensorIn
 -
-R a ng e L ow Fa ilur e
-P 116 9
+RangeLowFailure
+P1169
 Fu
-e l R a il Se ns or In
+elRailSensorIn
 -
-R a ng e High Fa il ur e
-P 117 0
-E SO
+RangeHighFailure
+P1170
+ESO
 -
-E ng ine Sh ut O f f Sole noid Fa ult
-P 117 1
-R ot or Se nsor Fa ult
-P 117 2
-R ot or C ont r ol Fa ult
-P 117 3
-R ot or C a libr a t ion Fa ult
-P 117 4
-C a m Se nsor Fa ult
-P 117 5
-C a m C ont r ol Fa ult
-P 117 6
-C a m C a libr a t ion Fa ult
-P 117 7
-Syn chr oniz a t io n Fa ult
-P 117 8
-( ope n )
-P 118 0
-Fue l De li ve r y Syst e m Ma l fu nct io n
+EngineShutOffSolenoidFault
+P1171
+RotorSensorFault
+P1172
+RotorControlFault
+P1173
+RotorCalibrationFault
+P1174
+CamSensorFault
+P1175
+CamControlFault
+P1176
+CamCalibrationFault
+P1177
+SynchronizationFault
+P1178
+(open)
+P1180
+FuelDeliverySystemMalfunction
 -
-L ow
-P 118 1
-Fue l De li ve r y Syst e m Ma l fu nct io n
+Low
+P1181
+FuelDeliverySystemMalfunction
 -
-Hig h
-P 118 2
-Fue l S hut O ff Sole n oid Ma lf unct i on
-P 118 3
-E ng ine O il Te m p e r a t ur e C ir cuit Ma lf un ct ion
-P 118 4
-E ng i
-ne O il Te m p e r a t ur e O u t O f Se lf Te st R a ng e
-P 118 5
-FT S High
+High
+P1182
+FuelShutOffSolenoidMalfunction
+P1183
+EngineOilTemperatureCircuitMalfunction
+P1184
+Engi
+neOilTemperatureOutOfSelfTestRange
+P1185
+FTSHigh
 -
-F ue l P um p Te m p e r a t ur e Se nsor High
-P 118 6
-FT S Low
+FuelPumpTemperatureSensorHigh
+P1186
+FTSLow
 -
-Fue l P um p Te m p e r a t ur e Se nsor Low
-P 118 7
-V a r ia nt Se le ct ion
-P 118 8
-C a libr a t ion Me m ory Fa ult
-P 118 9
-P um p Sp e e d Sig na l Fa ult
-P 119 0
-C a lib
-r a t ion R e sist or O ut O f R a ng e
-P 119 1
-K e y Line V olt a g e
-P 119 2
-V olt a g e E xt e r na l
-P 119 3
-E GR Dr ive O ve r cur r e nt
-P 119 4
-E C U A / D C o nve r t e r
-P 119 5
-SC P HBC C Fa ile d To I nit ia li z e
-P 119 6
-K e y O ff V o lt a g e High
-P 119 7
-K e y O ff V o lt a g e Low
-P 119 8
-P um p R ot or
-C ont r ol U nd e r f ue ling
-P 119 9
-Fue l Le ve l Inp ut C ir c uit Lo w
-P 120 0
-Inje ct o r C ont r o l C ir c uit
-P 120 1
-Inje ct o r C ir c uit O p e n / S hor t e d
+FuelPumpTemperatureSensorLow
+P1187
+VariantSelection
+P1188
+CalibrationMemoryFault
+P1189
+PumpSpeedSignalFault
+P1190
+Calib
+rationResistorOutOfRange
+P1191
+KeyLineVoltage
+P1192
+VoltageExternal
+P1193
+EGRDriveOvercurrent
+P1194
+ECUA/DConverter
+P1195
+SCPHBCCFailedToInitialize
+P1196
+KeyOffVoltageHigh
+P1197
+KeyOffVoltageLow
+P1198
+PumpRotor
+ControlUnderfueling
+P1199
+FuelLevelInputCircuitLow
+P1200
+InjectorControlCircuit
+P1201
+InjectorCircuitOpen/Shorted
 -
-C ylind e r #1
-P 120 2
-Inje ct o r C ir c uit O p e n / S hor t e d
+Cylinder#1
+P1202
+InjectorCircuitOpen/Shorted
 -
-C ylind e r #2
-P 120 3
-Inje ct o r C ir c uit O p e n / S hor t e d
+Cylinder#2
+P1203
+InjectorCircuitOpen/Shorted
 -
-C ylind e r
+Cylinder
 #3
-P 120 4
-Inje ct o r C ir c uit O p e n / S hor t e d
+P1204
+InjectorCircuitOpen/Shorted
 -
-C ylind e r #4
-P 120 5
-Inje ct o r C ir c uit O p e n / S hor t e d
+Cylinder#4
+P1205
+InjectorCircuitOpen/Shorted
 -
-C ylind e r #5
-P 120 6
-Inje ct o r C ir c uit O p e n / S hor t e d
+Cylinder#5
+P1206
+InjectorCircuitOpen/Shorted
 -
-C ylind e r #6
-P 120 9
-Inje ct o r C ont r o l P r e ssur e S yst e m Fa ult
-P 121 0
-Inje ct o r C ont r o l P r e ssur e A b ove
-E xp e ct e d Le ve l
-P 121 1
-Inje ct o r C ont r o l P r e ssur e S e nsor A b o ve / B e low De sir e d
-P 121 2
-Inje ct o r C ont r o l P r e ssur e N ot De t e ct e d D ur ing C r a nk
-P 121 3
-St a r t Inje ct o r C ir c uit Ma lf un ct ion
-P 121 4
-P e d a l P osit ion Se nsor B C ir cuit Int e r m it t e nt
-P 121 5
-P e d a l P o
-sit ion Se nsor C C ir cuit L ow Inp ut
-P 121 6
-P e d a l P osit ion Se nsor C C ir cuit Hig h Inp ut
-P 121 7
-P e d a l P osit ion Se nsor C C ir cuit Int e r m it t e nt
-P 121 8
-C ID Hig h
-P 121 9
-C ID Low
-P 122 0
-Se r ie s T hr ot t le C ont r ol S yst e m Ma lfun ct ion
-P 122 1
-Tr a ct io n C ont r ol S ys
-t e m Ma lfu nct io n
-P 122 2
-Tr a ct io n C ont r ol O ut p ut C i r cuit Ma lf un ct ion
-P 122 3
-P e d a l De m a nd Se ns or B C ir cuit Hig h Inp ut
-P 122 4
-Thr ot t le P o sit ion Se nsor B O ut O f Se l f Te st R a ng e
-P 122 5
-Ne e d le Lift Se ns or Ma lf un ct ion
-P 122 6
-C ont r ol Sle e ve Se n sor Ma lf unc
-t i on
-P 122 7
-W a st e g a t e Fa ile d C lose d ( O ve r P r e ssur e )
-P 122 8
-W a st e g a t e Fa ile d O p e n ( Un d e r P r e ssur e )
-P 122 9
-Int e r coole r P um p Dr i ve r Fa ult
-P 123 0
-Fue l P um p Low S p e e d Ma lf unct i on
-P 123 1
-Fue l P um p Se co nd a r y C ir cu it Low , Hig h Sp e e d
-P 123 2
-Fue l P um p Sp
-e e d P r im a r y C ir cuit Ma l fun ct io n
-P 123 3
-Fue l P um p Dr i ve r Module O ff Line
-P 123 4
-Fue l P um p Dr i ve r Module O ff Line
-P 123 5
-Fue l P um p C ont r ol O ut O f R a ng e
-P 123 6
-Fue l P um p C ont r ol O ut O f R a ng e
-P 123 7
-Fue l P um p Se co nd a r y C ir cu it Ma lfun ct io n
-P 123 8
+Cylinder#6
+P1209
+InjectorControlPressureSystemFault
+P1210
+InjectorControlPressureAbove
+ExpectedLevel
+P1211
+InjectorControlPressureSensorAbove/BelowDesired
+P1212
+InjectorControlPressureNotDetectedDuringCrank
+P1213
+StartInjectorCircuitMalfunction
+P1214
+PedalPositionSensorBCircuitIntermittent
+P1215
+PedalPo
+sitionSensorCCircuitLowInput
+P1216
+PedalPositionSensorCCircuitHighInput
+P1217
+PedalPositionSensorCCircuitIntermittent
+P1218
+CIDHigh
+P1219
+CIDLow
+P1220
+SeriesThrottleControlSystemMalfunction
+P1221
+TractionControlSys
+temMalfunction
+P1222
+TractionControlOutputCircuitMalfunction
+P1223
+PedalDemandSensorBCircuitHighInput
+P1224
+ThrottlePositionSensorBOutOfSelfTestRange
+P1225
+NeedleLiftSensorMalfunction
+P1226
+ControlSleeveSensorMalfunc
+tion
+P1227
+WastegateFailedClosed(OverPressure)
+P1228
+WastegateFailedOpen(UnderPressure)
+P1229
+IntercoolerPumpDriverFault
+P1230
+FuelPumpLowSpeedMalfunction
+P1231
+FuelPumpSecondaryCircuitLow,HighSpeed
+P1232
+FuelPumpSp
+eedPrimaryCircuitMalfunction
+P1233
+FuelPumpDriverModuleOffLine
+P1234
+FuelPumpDriverModuleOffLine
+P1235
+FuelPumpControlOutOfRange
+P1236
+FuelPumpControlOutOfRange
+P1237
+FuelPumpSecondaryCircuitMalfunction
+P1238
 Fu
-e l P um p Se co nd a r y C ir cu it Ma lfun ct io n
-P 123 9
-Sp e e d Fue l P um p P osit i ve F e e d Fa ult
-P 124 0
-Se nsor P ow e r Sup p l y Ma lf u nct io n
-P 124 1
-Se nsor P ow e r Sup p l y L ow I np ut
-P 124 2
-Se nsor P ow e r Sup p l y Hig h Inp ut
-P 124 3
-Se con d F ue l P um p Fa ult y o r Gr ou nd Fa ult
+elPumpSecondaryCircuitMalfunction
+P1239
+SpeedFuelPumpPositiveFeedFault
+P1240
+SensorPowerSupplyMalfunction
+P1241
+SensorPowerSupplyLowInput
+P1242
+SensorPowerSupplyHighInput
+P1243
+SecondFuelPumpFaultyorGroundFault
 P
-124 4
-A lt e r na t or Loa d Inp ut Fa ile d High
-P 124 5
-A lt e r na t or Loa d Inp ut Fa ile d Low
-P 124 6
-A lt e r na t or Loa d Inp ut Fa ile d
-P 124 7
-Tur b o B oost P r e ss ur e L ow
-P 124 8
-Tur b o B oost P r e ss ur e Not De t e ct e d
-P 124 9
-W a st e g a t e C ont r ol V a lve P e r form a n ce
-P 125 0
-P R C So
-le noid C ir cuit Ma l fu n ct ion
-P 125 1
-A ir Mixt ur e S ole noid C i r cuit Ma lfun ct io n
-P 125 2
-P e d a l C orr e la t ion P DS 1 a nd LP DS High
-P 125 3
-P e d a l C orr e la t ion P DS 1 a nd LP DS Low
-P 125 4
-P e d a l C orr e la t ion P DS 2 a nd LP DS High
-P 125 5
-P e d a l C orr e la t ion P DS 2 a nd LP DS L
+1244
+AlternatorLoadInputFailedHigh
+P1245
+AlternatorLoadInputFailedLow
+P1246
+AlternatorLoadInputFailed
+P1247
+TurboBoostPressureLow
+P1248
+TurboBoostPressureNotDetected
+P1249
+WastegateControlValvePerformance
+P1250
+PRCSo
+lenoidCircuitMalfunction
+P1251
+AirMixtureSolenoidCircuitMalfunction
+P1252
+PedalCorrelationPDS1andLPDSHigh
+P1253
+PedalCorrelationPDS1andLPDSLow
+P1254
+PedalCorrelationPDS2andLPDSHigh
+P1255
+PedalCorrelationPDS2andLPDSL
 ow
-P 125 6
-P e d a l C orr e la t ion P DS 1 a nd HP DS
-P 125 7
-P e d a l C orr e la t ion P DS 2 a nd HP DS
-P 125 8
-P e d a l C orr e la t ion P DS 1 a nd P DS2
-P 125 9
-Im m obiliz e r t o P C M Sig na l E r r or
-P 126 0
-THE F T De t e ct e d , V e hicle I m m obilz e d
-P 126 1
-C ylind e r #1 High To Low Si d e Short
-P 126 2
-C ylind e r #2 High To Low Si d e Short
-P 126 3
-C ylind e r #3 High To Low Si d e Short
-P 126 4
-C ylind e r #4 High To Low Si d e Short
-P 126 5
-C ylind e r #5 High To Low Si d e Short
-P 126 6
-C ylind e r #6 High To Low Si d e Short
-P 126 7
-C ylind e r #7 High To Low Si d e
+P1256
+PedalCorrelationPDS1andHPDS
+P1257
+PedalCorrelationPDS2andHPDS
+P1258
+PedalCorrelationPDS1andPDS2
+P1259
+ImmobilizertoPCMSignalError
+P1260
+THEFTDetected,VehicleImmobilzed
+P1261
+Cylinder#1HighToLowSideShort
+P1262
+Cylinder#2HighToLowSideShort
+P1263
+Cylinder#3HighToLowSideShort
+P1264
+Cylinder#4HighToLowSideShort
+P1265
+Cylinder#5HighToLowSideShort
+P1266
+Cylinder#6HighToLowSideShort
+P1267
+Cylinder#7HighToLowSide
 Short
-P 126 8
-C ylind e r #8 High To Low Si d e Short
-P 126 9
-Im m obiliz e r C ode N ot P r ogr a m m e d
-P 127 0
-E ng ine R P M O r Sp e e d L im it e r R e a che d
-P 127 1
-C ylind e r #1 High To Low Si d e O p e n
-P 127 2
-C ylind e r #2 High To Low Si d e O p e n
-P 127 3
-C ylind e r #3 High To Low
-Si d e O p e n
-P 127 4
-C ylind e r #4 High To Low Si d e O p e n
-P 127 5
-C ylind e r #5 High To Low Si d e O p e n
-P 127 6
-C ylind e r #6 High To Low Si d e O p e n
-P 127 7
-C ylind e r #7 High To Low Si d e O p e n
-P 127 8
-C ylind e r #8 High To Low Si d e O p e n
-P 128 0
-Inje ct i on C o nt r ol P r e s
-s ur e O ut O f R a ng e L ow
-P 128 1
-Inje ct i on C o nt r ol P r e ss ur e O ut O f R a ng e Hig h
-P 128 2
-E xce ssive I nje ct ion C ont r ol P r e ssur e
-P 128 3
-IP R C ir cuit Fa il ur e
-P 128 4
-A b ort e d K O E R
+P1268
+Cylinder#8HighToLowSideShort
+P1269
+ImmobilizerCodeNotProgrammed
+P1270
+EngineRPMOrSpeedLimiterReached
+P1271
+Cylinder#1HighToLowSideOpen
+P1272
+Cylinder#2HighToLowSideOpen
+P1273
+Cylinder#3HighToLow
+SideOpen
+P1274
+Cylinder#4HighToLowSideOpen
+P1275
+Cylinder#5HighToLowSideOpen
+P1276
+Cylinder#6HighToLowSideOpen
+P1277
+Cylinder#7HighToLowSideOpen
+P1278
+Cylinder#8HighToLowSideOpen
+P1280
+InjectionControlPres
+sureOutOfRangeLow
+P1281
+InjectionControlPressureOutOfRangeHigh
+P1282
+ExcessiveInjectionControlPressure
+P1283
+IPRCircuitFailure
+P1284
+AbortedKOER
 -
-IC P Fa ilur e
-P 128 5
-C ylind e r he a d ove r t e m p se nse d
-P 128 6
-Fue l P ul se In R a ng e
-B ut Lo w e r Tha n E xp e ct e d
-P 128 7
-Fue l P ul se In R a ng e B ut Hi g he r T ha n E xp e ct e d
-P 128 8
-C ylind e r He a d Te m p Se nsor O ut O f Se l f Te st R a ng e
-P 128 9
-C ylind e r He a d Te m p Se nsor High I np ut
-P 129 0
-C ylind e r He a d Te m p Se nsor Low Inp ut
-P 129 1
-Inje ct o r High Sid e S
-hort To GN D O r V B A T T
+ICPFailure
+P1285
+Cylinderheadovertempsensed
+P1286
+FuelPulseInRange
+ButLowerThanExpected
+P1287
+FuelPulseInRangeButHigherThanExpected
+P1288
+CylinderHeadTempSensorOutOfSelfTestRange
+P1289
+CylinderHeadTempSensorHighInput
+P1290
+CylinderHeadTempSensorLowInput
+P1291
+InjectorHighSideS
+hortToGNDOrVBATT
 -
-B a nk 1
-P 129 2
-Inje ct o r High Sid e S hort To GN D O r V B A T T
+Bank1
+P1292
+InjectorHighSideShortToGNDOrVBATT
 -
-B a nk 2
-P 129 3
-Inje ct o r High Sid e O p e n
+Bank2
+P1293
+InjectorHighSideOpen
 -
-B a nk 1
-P 129 4
-Inje ct o r High Sid e O p e n
+Bank1
+P1294
+InjectorHighSideOpen
 -
-B a nk 2/ Ta r g e t id le not r e a c h e d
-P 129 5
-Mult i
+Bank2/Targetidlenotreached
+P1295
+Multi
 -
-fa ult s
+faults
 -
-B a n k 1
+Bank1
 -
-W it h Low Sid e S hort s
-P 1
-29 6
-Mult i
+WithLowSideShorts
+P1
+296
+Multi
 -
-fa ult s
+faults
 -
-B a n k 2
+Bank2
 -
-W it h Low Sid e S hort s
-P 129 7
-Inje ct o r High Sid e s Short e d Toge t he r
-P 129 8
-IDM Fa il ur e
-P 129 9
-C ylind e r He a d O ve r t e m p e r a t ur e P r ot e ct ion A ct ive
-P 130 0
-B oost C a libr a t ion Fa ult
-P 130 1
-B oost C a libr a t ion Hi g h
-P 130 2
-B oost C a l
-ib r a t ion Low
-P 130 3
-E GR C a libr a t ion Fa ult
-P 130 4
-E GR C a libr a t ion High
-P 130 5
-E GR C a libr a t ion Low
-P 130 6
-K ickd ow n R e la y P ull
+WithLowSideShorts
+P1297
+InjectorHighSidesShortedTogether
+P1298
+IDMFailure
+P1299
+CylinderHeadOvertemperatureProtectionActive
+P1300
+BoostCalibrationFault
+P1301
+BoostCalibrationHigh
+P1302
+BoostCal
+ibrationLow
+P1303
+EGRCalibrationFault
+P1304
+EGRCalibrationHigh
+P1305
+EGRCalibrationLow
+P1306
+KickdownRelayPull
 -
-In C ir cuit Fa ult
-P 130 7
-K ickd ow n R e la y Hold C ir cuit Fa ult
-P 130 8
-A / C C lut ch C ir cuit Fa ult
-P 130 9
-Misfir e Mo nit or A IC
-E C hip F a ult
-P 131 3
-Misfir e R a t e C a t a lyst Da m a g e Fa ult
+InCircuitFault
+P1307
+KickdownRelayHoldCircuitFault
+P1308
+A/CClutchCircuitFault
+P1309
+MisfireMonitorAIC
+EChipFault
+P1313
+MisfireRateCatalystDamageFault
 -
-B a n k 1
-P 131 4
-Misfir e R a t e C a t a lyst Da m a g e Fa ult
+Bank1
+P1314
+MisfireRateCatalystDamageFault
 -
-B a n k 2
-P 131 5
-P e r sist e nt Misfir e
-P 131 6
-Inje ct o r C ir c uit / IDM C ode s De t e ct e d
-P 131 7
-Inje ct o r C ir c uit / IDM C ode s Not Up d a t e d
-P 133 6
-C r a
-nk / C a m Se n sor R a ng e / P e r form a nce
-P 134 0
-C a m sha ft P osit io n Se nsor B C ir cuit Ma l fu nct io n
-P 134 1
-C a m sha ft P osit io n Se nsor B R a ng e / P e r form a nce
-P 134 5
-SGC ( C a m P osit io n) Se nsor C ir cuit Ma l fun ct io n/ C r a nk s ha ft
-P osit ion
+Bank2
+P1315
+PersistentMisfire
+P1316
+InjectorCircuit/IDMCodesDetected
+P1317
+InjectorCircuit/IDMCodesNotUpdated
+P1336
+Cra
+nk/CamSensorRange/Performance
+P1340
+CamshaftPositionSensorBCircuitMalfunction
+P1341
+CamshaftPositionSensorBRange/Performance
+P1345
+SGC(CamPosition)SensorCircuitMalfunction/Crankshaft
+Position
 -
-C a m s ha ft P os it io n C orr e la t ion
-P 134 6
-Fue l Le ve l Se n sor B C ir cuit Ma lfun ct io n
-P 134 7
-Fue l Le ve l Se n sor B R a ng e / P e r form a nce
-P 134 8
-Fue l Le ve l Se n sor B C ir cuit Low
-P 134 9
-Fue l Le ve l Se n sor B C ir cuit High
-P 135 0
-Fue l Le ve l Se n sor B I nt e r m i t t e nt / B yp a ss Li ne Mo nit or
-P 135 1
+CamshaftPositionCorrelation
+P1346
+FuelLevelSensorBCircuitMalfunction
+P1347
+FuelLevelSensorBRange/Performance
+P1348
+FuelLevelSensorBCircuitLow
+P1349
+FuelLevelSensorBCircuitHigh
+P1350
+FuelLevelSensorBIntermittent/BypassLineMonitor
+P1351
 IDM
-Inp ut C ir c uit Ma lf un ct i on/ Ig nit io n C oil C ont r ol C ir cuit Hig h
-V olt a g e
-P 135 2
-Ig nit ion C oil A P r im a r y C ir c uit Ma lfu nct i on
-P 135 3
-Ig nit ion C oil B P r im a r y C ir c uit Ma lfu nct i on
-P 135 4
-Ig nit ion C oil C P r im a r y C ir c uit Ma lfu nct i on
-P 135 5
-Ig nit ion C oil D P r
-im a r y C ir c uit Ma lfu nct i on
-P 136 0
-Ig nit ion C oil A Se cond a r y C i r cuit Ma lf un ct ion
-P 136 1
-Ig nit ion C ont r ol ( IC ) C ir cuit Low V olt a g e
-P 136 2
-Ig nit ion C oil C Se cond a r y C i r cuit Ma lf un ct ion
-P 136 3
-Ig nit ion C oil D Se co nd a r y C ir cuit Ma l fun ct io n
-P 136 4
-Ig nit
-ion C oil P r im a r y C ir cuit Fa ilur e
-P 136 5
-Ig nit ion C oil Se cond a r y C ir c uit Fa ilur e
-P 136 6
-Ig nit ion Sp a r e
-P 136 7
-Ig nit ion Sp a r e
-P 136 8
-Ig nit ion Sp a r e
-P 136 9
-E ng ine Te m p e r a t ur e Lig ht Monit or Fa ilur e
-P 137 0
-Insu ffi cie nt R MP I ncr e a se D ur ing Sp a r k Te st
-P 137 1
-Ig nit ion C oil
+InputCircuitMalfunction/IgnitionCoilControlCircuitHigh
+Voltage
+P1352
+IgnitionCoilAPrimaryCircuitMalfunction
+P1353
+IgnitionCoilBPrimaryCircuitMalfunction
+P1354
+IgnitionCoilCPrimaryCircuitMalfunction
+P1355
+IgnitionCoilDPr
+imaryCircuitMalfunction
+P1360
+IgnitionCoilASecondaryCircuitMalfunction
+P1361
+IgnitionControl(IC)CircuitLowVoltage
+P1362
+IgnitionCoilCSecondaryCircuitMalfunction
+P1363
+IgnitionCoilDSecondaryCircuitMalfunction
+P1364
+Ignit
+ionCoilPrimaryCircuitFailure
+P1365
+IgnitionCoilSecondaryCircuitFailure
+P1366
+IgnitionSpare
+P1367
+IgnitionSpare
+P1368
+IgnitionSpare
+P1369
+EngineTemperatureLightMonitorFailure
+P1370
+InsufficientRMPIncreaseDuringSparkTest
+P1371
+IgnitionCoil
 -
-C ylind e r 1
+Cylinder1
 -
-E a r ly A ct iva t io n Fa ult
-P 137 2
-Ig nit ion C oil
+EarlyActivationFault
+P1372
+IgnitionCoil
 -
-C ylind e r 2
+Cylinder2
 -
-E a r ly A ct iva t io n Fa ult
-P 137 3
-Ig nit ion C oil
+EarlyActivationFault
+P1373
+IgnitionCoil
 -
-C ylind e r 3
+Cylinder3
 -
-E a r ly A ct iva t io n Fa ult
-P 137 4
-C r a nksha ft P osit io n ( C K P ) / I g nit ion C oil
+EarlyActivationFault
+P1374
+CrankshaftPosition(CKP)/IgnitionCoil
 -
-C ylind e r 4
+Cylinder4
 -
-E a r ly
-A c
-t iva t ion Fa ult
-P 137 5
-Ig nit ion C oil
+Early
+Ac
+tivationFault
+P1375
+IgnitionCoil
 -
-C ylind e r 5
+Cylinder5
 -
-E a r ly A ct iva t io n Fa ult
-P 137 6
-Ig nit ion C oil
+EarlyActivationFault
+P1376
+IgnitionCoil
 -
-C ylind e r 6
+Cylinder6
 -
-E a r ly A ct iva t io n Fa ult
-P 138 0
-Misfir e De t e ct e d
+EarlyActivationFault
+P1380
+MisfireDetected
 -
-R oug h R oa d Da t a Not A va ila b le
-P 138 1
-V a r ia b le C a m Tim ing O ve r a d va nce d ( B a n k #1) / Mis fir e
-De t e ct e d
+RoughRoadDataNotAvailable
+P1381
+VariableCamTimingOveradvanced(Bank#1)/Misfire
+Detected
 -
-N o C om m u nica t i on w it h B C M
-P 138 2
-V a r ia b le C a m Tim ing Sole n oid # 1 C ir c uit Ma lf un ct ion
-P 138 3
-V a r ia b le C a m Tim ing O ve r r e t a r d e d ( B a nk #1)
-P 138 4
-V V T Sole no id A Ma lf un ct ion
-P 138 5
-V a r ia b le C a m Tim ing Sole n oid B Ma lf unct i on
-P 138 6
-V a r ia b le
-C a m Tim ing O ve r a d va nce d ( B a n k #2)
-P 138 7
-V a r ia b le C a m Tim ing Sole n oid # 2 C ir c uit Ma lf un ct ion
-P 138 8
-V a r ia b le C a m Tim ing O ve r r e t a r d e d ( B a nk #2)
-P 138 9
-Glow P lug C i r cuit High Sid e Low Inp ut
-P 139 0
-O ct a ne A d ju st P in O ut O f S e lf Te st R a ng e
-P 139 1
+NoCommunicationwithBCM
+P1382
+VariableCamTimingSolenoid#1CircuitMalfunction
+P1383
+VariableCamTimingOverretarded(Bank#1)
+P1384
+VVTSolenoidAMalfunction
+P1385
+VariableCamTimingSolenoidBMalfunction
+P1386
+Variable
+CamTimingOveradvanced(Bank#2)
+P1387
+VariableCamTimingSolenoid#2CircuitMalfunction
+P1388
+VariableCamTimingOverretarded(Bank#2)
+P1389
+GlowPlugCircuitHighSideLowInput
+P1390
+OctaneAdjustPinOutOfSelfTestRange
+P1391
 Glo
-w P lug C i r cuit Low I np ut ( B a nk # 1)
-P 139 2
-Glow P lug C i r cuit High I np u t ( B a nk # 1)
-P 139 3
-Glow P lug C i r cuit Low I np ut ( B a nk # 2)
-P 139 4
-Glow P lug C i r cuit High I np u t ( B a nk # 2)
-P 139 5
-Glow P lug Monit o r Fa ult ( B a nk # 1)
-P 139 6
-Glow P lug Monit o r Fa ult ( B
-a nk # 2)
-P 139 7
-Syst e m V olt a g e O ut O f Se lf Te st R a ng e
-P 139 8
-V V T Sole no id B C ir c uit Hig h Inp ut
-P 139 9
-Glow P lug C i r cuit High Sid e , High I np ut
-P 140 0
-DP FE C ir c uit Low I np ut
-P 140 1
-DP FE C ir c uit Hig h Inp ut
-P 140 2
-E GR Me t e r ing O r ifi ce R e st r ict e d
-P 140 3
-DP FE Se n sor H ose s R e ve r s e d
-P 140 4
-IA T
+wPlugCircuitLowInput(Bank#1)
+P1392
+GlowPlugCircuitHighInput(Bank#1)
+P1393
+GlowPlugCircuitLowInput(Bank#2)
+P1394
+GlowPlugCircuitHighInput(Bank#2)
+P1395
+GlowPlugMonitorFault(Bank#1)
+P1396
+GlowPlugMonitorFault(B
+ank#2)
+P1397
+SystemVoltageOutOfSelfTestRange
+P1398
+VVTSolenoidBCircuitHighInput
+P1399
+GlowPlugCircuitHighSide,HighInput
+P1400
+DPFECircuitLowInput
+P1401
+DPFECircuitHighInput
+P1402
+EGRMeteringOrificeRestricted
+P1403
+DPFESensorHosesReversed
+P1404
+IAT
 -
-B C ir cuit Ma l fu nct io n/ E xha ust Ga s R e cir c ula t ion C lose d
-P osit ion P e r f orm a nce
-P 140 5
-DP FE Se n sor Up st r e a m Hos e O ff O r P lu g g e d
-P 140 6
-E xha ust Ga s R e c ir cu la t ion ( E GR ) P osit ion Se nsor P e r for m a nce
-P 140 7
-E GR
-No Flow De t e ct e d
-P 140 8
-E GR Flow O ut O f Se l f Te st R a ng e
-P 140 9
-E V R C ont r ol C ir cuit Ma lfu nc t ion
-P 141 1
-SA I Sy st e m Inc orr e ct Dow n st r e a m Flow De t e ct e d
-P 141 3
-SA I Sy st e m Monit or C ir c uit Low Inp ut
-P 141 4
-SA I Sy st e m Monit or C ir c uit High In p ut
-P 141 5
-A ir P um p C ir c uit Ma lf un ct io n/ ( A IR ) Syst e m B a n k 1
-P 141 6
-P ort A ir C ir cuit Ma l fu nct io n/ ( A IR ) Syst e m B a nk 2
-P 141 7
-P ort A ir R e lie f C ir cuit Ma lfu nct io n
-P 141 8
-Sp lit A ir # 1 C ir c uit Ma lf un ct ion
-P 141 9
-Sp lit A ir # 2 C ir c uit Ma lf un ct ion
-P 142 0
-C a t a lyst
-Te m p e r a t ur e Se n s or Fa ilur e
-P 142 1
-C a t a lyst Da m a g e
-P 142 2
-E GI Te m p e r a t ur e Se nsor Fa ilur e
-P 142 3
-E GI Fu nct i ona lit y Te st Fa ile d
-P 142 4
-E GI Glow P l ug P r im a r y Fa il ur e
-P 142 5
-E GI Glow P l ug Se cond a r y F a ilur e
-P 142 6
-E GI Mini
+BCircuitMalfunction/ExhaustGasRecirculationClosed
+PositionPerformance
+P1405
+DPFESensorUpstreamHoseOffOrPlugged
+P1406
+ExhaustGasRecirculation(EGR)PositionSensorPerformance
+P1407
+EGR
+NoFlowDetected
+P1408
+EGRFlowOutOfSelfTestRange
+P1409
+EVRControlCircuitMalfunction
+P1411
+SAISystemIncorrectDownstreamFlowDetected
+P1413
+SAISystemMonitorCircuitLowInput
+P1414
+SAISystemMonitorCircuitHighInput
+P1415
+AirPumpCircuitMalfunction/(AIR)SystemBank1
+P1416
+PortAirCircuitMalfunction/(AIR)SystemBank2
+P1417
+PortAirReliefCircuitMalfunction
+P1418
+SplitAir#1CircuitMalfunction
+P1419
+SplitAir#2CircuitMalfunction
+P1420
+Catalyst
+TemperatureSensorFailure
+P1421
+CatalystDamage
+P1422
+EGITemperatureSensorFailure
+P1423
+EGIFunctionalityTestFailed
+P1424
+EGIGlowPlugPrimaryFailure
+P1425
+EGIGlowPlugSecondaryFailure
+P1426
+EGIMini
 -
-MA F Fa ile d O ut O f R a ng e
-P 142 7
-E GI Mini
+MAFFailedOutOfRange
+P1427
+EGIMini
 -
-MA F Fa ile d S hort C ir cuit
-P 142 8
-E GI Mini
+MAFFailedShortCircuit
+P1428
+EGIMini
 -
-MA F Fa ile d O p e n C ir cuit
-P 142 9
-E le ct r ic A ir P um p P r im a r y F a ilur e
-P 143 0
-E le ct r ic A ir P um p Se co nd a r y Fa ilur e
-P 143 3
-A / C R e fr ig e r a nt Te m p e r a t u r e C ir cuit L ow
-P 143 4
-A / C R e fr ig e r a nt Te m p e
-r a t u r e C ir cuit Hig h
-P 143 5
-A / C R e fr ig e r a nt Te m p e r a t u r e C ir cuit R a ng e / P e r form a n ce
-P 143 6
-A / C E va p ora t or A ir Te m p e r a t ur e C ir cuit Low
-P 143 7
-A / C E va p ora t or A ir Te m p e r a t ur e C ir cuit Hig h
-P 143 8
-A / C E va p ora t or A ir Te m p e r a t ur e C ir cuit R a ng e / P e r for m a nce
-P 143 9
-Floor Te m p e r a t ur e Sw it c h C ir cuit Ma l fun ct io n
-P 144 0
-P ur g e V a lve St u ck O p e n
-P 144 1
-E va p ora t ive E m ission ( E V A P ) Syst e m Fl ow Dur ing Non
+MAFFailedOpenCircuit
+P1429
+ElectricAirPumpPrimaryFailure
+P1430
+ElectricAirPumpSecondaryFailure
+P1433
+A/CRefrigerantTemperatureCircuitLow
+P1434
+A/CRefrigerantTempe
+ratureCircuitHigh
+P1435
+A/CRefrigerantTemperatureCircuitRange/Performance
+P1436
+A/CEvaporatorAirTemperatureCircuitLow
+P1437
+A/CEvaporatorAirTemperatureCircuitHigh
+P1438
+A/CEvaporatorAirTemperatureCircuitRange/Performance
+P1439
+FloorTemperatureSwitchCircuitMalfunction
+P1440
+PurgeValveStuckOpen
+P1441
+EvaporativeEmission(EVAP)SystemFlowDuringNon
 -
-P ur g e
-C he vr ole t O nl y
-P 144 1
-E va p ora t ive E m ission ( E V A P ) Syst e m Fl ow Dur ing Non
+Purge
+ChevroletOnly
+P1441
+EvaporativeEmission(EVAP)SystemFlowDuringNon
 -
-P ur g e
-O ld sm obile O nl y
-P 144 2
-E va p ora t ive E m ission C ont r ol Syst e m Le a k De t e ct e d
-P 144 3
-E va p ora t ive E m ission C ont r ol Syst e m C ont r ol V a lve
-P 144 4
-P ur g e Flow Se nsor C ir cuit L ow Inp ut
-P 144 5
-P ur g e Flow Se nsor C ir cuit H ig h Inp ut
-P 144 6
-E va p ora t ive V a c Sole n oid C i r cuit Ma lf un ct ion
-P 144 7
-E LC Syst e m C l osur e V a lve F low Fa ult
-P 144 8
-E LC Syst e m 2 Fa ult
-P 144 9
-E va p ora t ive C he c k S ole noid C ir cuit Ma l fu nct io n
-P 145 0
-Una b le To B le e d Up F ue l T a nk V a cu um
-P 145 1
-E va p E m ission C o nt r ol Sys V e nt C ont r ol V a lve C ir cuit
-P 145 2
-Una b le To B le
-e d
+Purge
+OldsmobileOnly
+P1442
+EvaporativeEmissionControlSystemLeakDetected
+P1443
+EvaporativeEmissionControlSystemControlValve
+P1444
+PurgeFlowSensorCircuitLowInput
+P1445
+PurgeFlowSensorCircuitHighInput
+P1446
+EvaporativeVacSolenoidCircuitMalfunction
+P1447
+ELCSystemClosureValveFlowFault
+P1448
+ELCSystem2Fault
+P1449
+EvaporativeCheckSolenoidCircuitMalfunction
+P1450
+UnableToBleedUpFuelTankVacuum
+P1451
+EvapEmissionControlSysVentControlValveCircuit
+P1452
+UnableToBle
+ed
 -
-Up V a cu um in Ta nk
-P 145 3
-Fue l Ta nk P r e s sur e R e lie f V a lve Ma lfu nct io n
-P 145 4
-E va p ora t ive Sy st e m V a cuu m Te st Ma lf un ct ion
-P 145 5
-E va p E m ission C o nt r ol Sys Le a k De t e ct e d ( Gr oss Le a k/ No
-Flow )
-P 145 6
-Fue l Ta nk Te m p e r a t ur e Se n sor C ir c uit Ma lf unct i on
-P 145 7
-Una b le To P ull V a c uum I n Ta nk
-P 146 0
-W id e ope n t hr ot t le A / C cut off r e la y cir cuit
+UpVacuuminTank
+P1453
+FuelTankPressureReliefValveMalfunction
+P1454
+EvaporativeSystemVacuumTestMalfunction
+P1455
+EvapEmissionControlSysLeakDetected(GrossLeak/No
+Flow)
+P1456
+FuelTankTemperatureSensorCircuitMalfunction
+P1457
+UnableToPullVacuumInTank
+P1460
+Wideopenthrot t le A / C cut off r e la y cir cuit
 P 146 1
 A / C p r e ssur e se ns or cir cuit volt a g e low
 P 146 2
