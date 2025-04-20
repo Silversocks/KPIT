@@ -1,4 +1,3 @@
-import argparse
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.llms import HuggingFacePipeline
@@ -8,7 +7,8 @@ from transformers import pipeline
 CHROMA_PATH = "chroma"
 
 PROMPT_TEMPLATE = """
-Answer the question based only on the following context:
+you are a highly advanced AI model, that can make concise, but informative reports.
+based on the given OBD-2 codes, create a proffessional report 
 
 {context}
 
@@ -20,10 +20,7 @@ Answer the question based on the above context: {question}
 
 def main():
     # Create CLI.
-    parser = argparse.ArgumentParser()
-    parser.add_argument("query_text", type=str, help="The query text.")
-    args = parser.parse_args()
-    query_text = args.query_text
+    query_text=input("OBD codes: ")
 
     # Use Hugging Face Embeddings (free model)
     embedding_function = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")

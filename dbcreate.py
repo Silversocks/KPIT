@@ -7,7 +7,7 @@ import os
 import shutil
 
 CHROMA_PATH = "chroma"
-DATA_PATH = "agents/KPIT stuff/data"
+DATA_PATH = "data"
 
 def main():
     generate_data_store()
