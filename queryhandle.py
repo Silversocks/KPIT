@@ -1,58 +1,48 @@
-from langchain_community.vectorstores import Chroma
-from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain_community.llms import HuggingFacePipeline
-from langchain.prompts import ChatPromptTemplate
-from transformers import pipeline
+import json
+import os
+import google.generativeai as genai
+from dotenv import load_dotenv
 
-CHROMA_PATH = "chroma"
+# Load environment variables from .env file
+load_dotenv()
 
-PROMPT_TEMPLATE = """
-you are a highly advanced AI model, that can make concise, but informative reports.
-based on the given OBD-2 codes, create a proffessional report 
+CHUNK_FILE = "chunks.json"
+MODEL_NAME = "models/gemini-2.0-flash"  # Change this if you're using a different version
+GOOGLE_API_KEY = os.getenv("GEMINI_API_KEY")
 
-{context}
+def load_chunks():
+    with open(CHUNK_FILE, "r") as f:
+        return json.load(f)
 
----
+def find_relevant_chunks(query, chunks):
+    return [chunk["content"] for chunk in chunks if query.lower() in chunk["content"].lower()]
 
-Answer the question based on the above context: {question}
-"""
+def query_model(error_code):
+    if not GOOGLE_API_KEY:
+        raise ValueError("GOOGLE_API_KEY is not set as an environment variable.")
+    
+    genai.configure(api_key=GOOGLE_API_KEY)
+    model = genai.GenerativeModel(MODEL_NAME)
 
+    chunks = load_chunks()
+
+    query_text = f"What does the error code {error_code} mean in a car?"
+    matched_chunks = find_relevant_chunks(error_code, chunks)
+
+    if not matched_chunks:
+        return "Sorry, I couldn’t find anything about that error code."
+
+    context = "\n\n".join(matched_chunks)
+    prompt = f"{context}\n\nBased on the above data, generate a detailed report regarding the error codes {error_code} in a car. Include the problem, potential causes and fixes. Include citations for points made, and tailor the report for a non mechanic driver of the vehicle."
+
+    response = model.generate_content(prompt)
+    return response.text.strip()
 
 def main():
-    # Create CLI.
-    query_text=input("OBD codes: ")
-
-    # Use Hugging Face Embeddings (free model)
-    embedding_function = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
-    db = Chroma(persist_directory=CHROMA_PATH, embedding_function=embedding_function)
-
-    # Search the DB
-    results = db.similarity_search_with_relevance_scores(query_text, k=3)
-    if len(results) == 0 or results[0][1] < 0.7:
-        print(f"Unable to find matching results.")
-        return
-
-    context_text = "\n\n---\n\n".join([doc.page_content for doc, _score in results])
-    prompt_template = ChatPromptTemplate.from_template(PROMPT_TEMPLATE)
-    prompt = prompt_template.format(context=context_text, question=query_text)
-    print(prompt)
-
-    # Use a Hugging Face transformer pipeline (e.g., Falcon, Mistral, GPT2, etc.)
-    hf_pipeline = pipeline(
-        "text-generation",
-        model="tiiuae/falcon-7b-instruct",  # or mistralai/Mistral-7B-Instruct-v0.1, etc.
-        max_new_tokens=500,
-        temperature=0.7,
-        do_sample=True,
-    )
-
-    model = HuggingFacePipeline(pipeline=hf_pipeline)
-    response_text = model.invoke(prompt)
-
-    sources = [doc.metadata.get("source", None) for doc, _score in results]
-    formatted_response = f"Response: {response_text}\nSources: {sources}"
-    print(formatted_response)
-
+    error_code = input("📟 Enter OBD Error Code (e.g., P0522): ").strip().upper()
+    result = query_model(error_code)
+    print("\n🚘 Car Screen Output:")
+    print(result)
 
 if __name__ == "__main__":
     main()
